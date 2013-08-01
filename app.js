@@ -6,3 +6,32 @@
  * $app.js$ Start MVC Application here
  * 
  */
+
+Ext.application({
+	requires: ['Ext.container.Viewport','Ext.menu.Menu'],
+	name: 'TT',
+	
+	appFolder: 'app',
+	controllers: [
+	              'Tasks'
+	          ],
+	
+	launch: function() {
+		Ext.create('Ext.container.Viewport', {
+			layout: 'fit',
+			items: [
+			        {
+			        	xtype: 'panel',
+			        	title: 'Task Track',
+			        	html: 'Here\'ll be your task and projects. Click <a href="#">Add</a> to add some data'
+			        }
+			        ]
+		});
+		Ext.create('Ext.container.Viewport', {
+            layout: 'fit',
+            items: {
+                xtype: 'tasklist'
+            }
+        });
+	}
+});
