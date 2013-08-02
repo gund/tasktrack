@@ -18,11 +18,18 @@ Ext.define('TT.controller.Tasks', {
         this.control({
             'viewport > panel': {
                 render: this.onPanelRendered
+            },
+            'tasklist': {
+                itemdblclick: this.editTask
             }
         });
     },
 
     onPanelRendered: function() {
         Util.log('The panel was rendered');
+    },
+    
+    editTask: function(grid, task) {
+        Util.log('Double clicked on ' + task.get('project')+ '-'+ task.get('task'));
     }
 });
