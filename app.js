@@ -8,7 +8,7 @@
  */
 
 Ext.application({
-	requires: ['Ext.container.Viewport'],
+	requires: ['Ext.container.Viewport','Ext.window.MessageBox'],
 	name: 'TT',
 	
 	appFolder: 'app',
@@ -18,20 +18,18 @@ Ext.application({
 	
 	launch: function() {
 		Ext.create('Ext.container.Viewport', {
-			layout: 'fit',
+			layout: 'border',
 			items: [
 			        {
-			        	xtype: 'panel',
-			        	title: 'Task Track',
-			        	html: 'Here\'ll be your task and projects. Click <a href="#">Add</a> to add some data'
-			        }
+			        	region: 'center',
+		                xtype: 'tasklist'
+		            },
+		            {
+		            	region: 'north',
+		            	xtype: 'mainToolbar',
+		            	autoHeight: true
+		            }
 			        ]
 		});
-		Ext.create('Ext.container.Viewport', {
-            layout: 'fit',
-            items: {
-                xtype: 'tasklist'
-            }
-        });
 	}
 });

@@ -14,6 +14,9 @@ Ext.define('TT.view.task.Edit', {
     title: 'Edit Task',
     layout: 'fit',
     autoShow: true,
+    modal: true,
+    constrain: true,
+    resizable: false,
 
     initComponent: function() {
         this.items = [
@@ -23,12 +26,40 @@ Ext.define('TT.view.task.Edit', {
                     {
                         xtype: 'textfield',
                         name : 'project',
+                        vtype: 'alphanum',
+                        vtypeText: 'Project name must be Alpha-Numeric',
+                        padding: '5',
                         fieldLabel: 'Project'
                     },
                     {
                         xtype: 'textfield',
                         name : 'task',
+                        allowBlank: false,
+                        vtype: 'alphanum',
+                        vtypeText: 'Task name must be Alpha-Numeric and is required',
+                        padding: '5',
                         fieldLabel: 'Task'
+                    },
+                    {
+                        xtype: 'timefield',
+                        format: 'H:i:s',
+                        validateOnChange: true,
+                        allowBlank: false,
+                        vtypeText: '',
+                        name : 'time',
+                        padding: '5',
+                        fieldLabel: 'Time'
+                    },
+                    {
+                        xtype: 'timefield',
+                        format: 'H:i:s',
+                        validateOnChange: true,
+                        allowBlank: false,
+                        vtypeText: '',
+                        name : 'remain',
+                        altFormats: '--:--:--',
+                        padding: '5',
+                        fieldLabel: 'Remain'
                     }
                 ]
             }
@@ -37,7 +68,8 @@ Ext.define('TT.view.task.Edit', {
         this.buttons = [
             {
                 text: 'Save',
-                action: 'save'
+                action: 'save',
+                id: 'save-task'
             },
             {
                 text: 'Cancel',
