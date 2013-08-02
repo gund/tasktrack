@@ -3,7 +3,7 @@
  * @project tasktrack
  * @date 01.08.2013 19:20:44
  * 
- * $Tasks.js$
+ * $Tasks.js$ Main App Controller
  * 
  */
 
@@ -11,7 +11,8 @@ Ext.define('TT.controller.Tasks', {
     extend: 'Ext.app.Controller',
 
     views: [
-            'task.List'
+            'task.List',
+            'task.Edit'
         ],
     
     init: function() {
@@ -31,5 +32,7 @@ Ext.define('TT.controller.Tasks', {
     
     editTask: function(grid, task) {
         Util.log('Double clicked on ' + task.get('project')+ '-'+ task.get('task'));
+        var view = Ext.widget('taskedit');
+//        view.down('form').loadRecord(task);
     }
 });

@@ -8,7 +8,7 @@
  */
 
 Ext.application({
-	requires: ['Ext.container.Viewport','Ext.menu.Menu'],
+	requires: ['Ext.container.Viewport'],
 	name: 'TT',
 	
 	appFolder: 'app',
