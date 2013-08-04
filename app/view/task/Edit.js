@@ -47,6 +47,7 @@ Ext.define('TT.view.task.Edit', {
                         allowBlank: false,
                         vtypeText: '',
                         name : 'time',
+                        value: '00:00:00',
                         padding: '5',
                         fieldLabel: 'Time'
                     },
@@ -58,6 +59,7 @@ Ext.define('TT.view.task.Edit', {
                         vtypeText: '',
                         name : 'remain',
                         altFormats: '--:--:--',
+                        value: '--:--:--',
                         padding: '5',
                         fieldLabel: 'Remain'
                     }

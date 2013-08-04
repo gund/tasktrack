@@ -8,28 +8,25 @@
  */
 
 Ext.application({
-	requires: ['Ext.container.Viewport','Ext.window.MessageBox'],
-	name: 'TT',
-	
-	appFolder: 'app',
-	controllers: [
-	              'Tasks'
-	          ],
-	
-	launch: function() {
+	requires : [ 'Ext.container.Viewport', 'Ext.window.MessageBox' ],
+	name : 'TT',
+
+	appFolder : 'app',
+	controllers : [ 'Tasks' ],
+
+	launch : function() {
 		Ext.create('Ext.container.Viewport', {
-			layout: 'border',
-			items: [
-			        {
-			        	region: 'center',
-		                xtype: 'tasklist'
-		            },
-		            {
-		            	region: 'north',
-		            	xtype: 'mainToolbar',
-		            	autoHeight: true
-		            }
-			        ]
+			layout : 'border',
+			items : [
+
+			{
+				region : 'north',
+				xtype : 'mainToolbar',
+				autoHeight : true
+			}, {
+				region : 'center',
+				xtype : 'tasklist'
+			} ]
 		});
 	}
 });

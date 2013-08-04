@@ -10,7 +10,9 @@
 Ext.define('TT.store.Tasks', {
     extend: 'Ext.data.Store',
     model: 'TT.model.Task',
-//    autoLoad: true,
+    alias: 'store.taskstore',
+    id: 'taskstore',
+    autoLoad: true,
     proxy: {
         type: 'ajax',
         url: 'data/tasks.json',
@@ -24,8 +26,4 @@ Ext.define('TT.store.Tasks', {
             successProperty: 'success'
         }
     },
-
-    data: [
-           {"id":1,"project":"","task":"","time":"","remain":"","controls":"init"}
-           ]
 });

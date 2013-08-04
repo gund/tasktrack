@@ -40,7 +40,7 @@ Ext.define('TT.controller.Tasks', {
 			} else {
 				Ext.MessageBox.show({
 					title : 'Error',
-					msg : 'Error while '+operation.action+'ing data. Please refresh the page!',
+					msg : 'Error while '+operation.action+'ing data. Please, try again later!',
 					icon : Ext.MessageBox.ERROR,
 					closable : false,
 					draggable : false

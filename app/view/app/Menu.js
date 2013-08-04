@@ -46,21 +46,25 @@ Ext.define('TT.view.app.Menu', {
 		});
 		this.suspendLayout = false;
 		this.doLayout();
-		this.items.get('add_projID').on('click', function() {
-			var view = Ext.widget('taskedit');
-			var form = view.down('form');
-			Util.setWinTitle(view, 'Add Tasksss', true);
-			var newRecord = {
-				data : {
-					id : '',
-					project : '',
-					task : '',
-					time : '',
-					remain : '--:--:--'
-				}
-			};
-			form.loadRecord(newRecord);
-		});
+		this.items.get('add_projID').on(
+				'click',
+				function() {
+					var view = Ext.widget('taskedit');
+					var form = view.down('form');
+					Util.setWinTitle(view, 'Add Task', true);
+					var recordData = {
+						data : {
+							id : Ext.id(),
+							project : '',
+							task : '',
+							time : '',
+							remain : '--:--:--'
+						}
+					};
+					var record = new TT.model.Task(Ext.id(), recordData.data);
+					Ext.getStore('Tasks').insert(3, record);
+					form.loadRecord(record);
+				});
 
 		/*
 		 * this.width = 100; this.margin = '0 0 10 0'; this.floating = false;

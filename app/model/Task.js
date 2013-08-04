@@ -10,8 +10,4 @@
 Ext.define('TT.model.Task', {
     extend: 'Ext.data.Model',
     fields: ['id', 'project', 'task', 'time', 'remain', 'controls'],
-
-    data: [
-           {"id":1,"project":"","task":"","time":"","remain":"","controls":"init"}
-           ]
 });
