@@ -1,7 +1,7 @@
 {
     "success": "true",
     "tasks": [
-        {"id": "1", "task": 'Ed',    "project": 'sencha.com'},
-        {"id": "2", "task": 'Tommy', "project": 'tommycha.com'}
+        {"id": "1", "task": 'Ed',    "project": 'senchacom'},
+        {"id": "2", "task": 'Tommy', "project": 'tommychacom'}
     ]
 }

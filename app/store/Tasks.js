@@ -17,8 +17,8 @@ Ext.define('TT.store.Tasks', {
         type: 'ajax',
         url: 'data/tasks.json',
         api: {
-            read: 'data/tasks.json',
-            update: 'data/tasks.json'
+            read: '/data/tasks.json',
+            update: '/data/update.json'
         },
         reader: {
             type: 'json',

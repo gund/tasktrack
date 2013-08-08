@@ -12,15 +12,16 @@ Ext.define('TT.view.task.List' ,{
     alias: 'widget.tasklist',
 
     title: 'Task & Projects',
+    store: 'Tasks',
 
     initComponent: function() {
-        this.store = {
+        /*this.store = {
             fields: ['id', 'project', 'task', 'time', 'remain', 'controls'],
             data  : [
                 {id: '1', project: 'shyna', task: '113', time: '01:02:56', remain: '--:--:--', controls: 'init'},
                 {id: '2', project: 'eurometa', task: '54', time: '00:42:23', remain: '--:--:--', controls: 'init'}
             ]
-        };
+        };*/
 
         this.columns = [
             {dataIndex: 'id',  header: '##',  flex: 0.2},
