@@ -1,4 +1,4 @@
-tasktrack
+#tasktrack
 =========
 
 Track your spent time to your Projects and Tasks.
@@ -9,5 +9,5 @@ other device. This app doesn't need Internet connection.
 The data will be stored on your PC and while you want
 sync your data just enable Internet connection.
 
-#Application written on ExtJs Framework (MVC Architecture).
+Application written on ExtJs Framework (MVC Architecture).(old)
 Now without any frameworks, just own code!
