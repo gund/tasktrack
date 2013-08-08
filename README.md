@@ -1,4 +1,4 @@
-#tasktrack
+tasktrack
 =========
 
 Track your spent time to your Projects and Tasks.
@@ -10,4 +10,5 @@ The data will be stored on your PC and while you want
 sync your data just enable Internet connection.
 
 Application written on ExtJs Framework (MVC Architecture).(old)
+
 Now without any frameworks, just own code!
