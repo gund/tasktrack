@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task Track</title>
+<!-- <link rel="stylesheet" href="ext-4/resources/css/ext-all.css"> -->
+<link rel="stylesheet" href="ext-4/resources/css/ext-all-gray.css">
+<script type="text/javascript" src="ext-4/ext-debug.js"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/utils.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+</body>
+</html>
