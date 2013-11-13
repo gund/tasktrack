@@ -15,4 +15,4 @@ const MODULE_WINDOWTT = 'windowtt';
 document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_WINDOWTT]+'/js/window.class.js"></script>');
 
 // Include CSS
-document.write('<link rel="stylesheet" href="'+APP_MODULES+'/'+MODULE_WINDOWTT+'/css/style.css">');
+document.write('<link rel="stylesheet" href="'+MODULE_PATH[MODULE_WINDOWTT]+'/css/style.css">');

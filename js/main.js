@@ -11,25 +11,21 @@
 $(document).ready(function() {
 	Utils.log('DOM is ready!');
 	onLoadApp();
-	var myWindow = new WindowTT;
-	myWindow.construct({
-		title: 'Lol',
-		html: 'My simple content',
-		modal: true
-	});
-	(function() {
-//		myWindow.toggle();
-//		setTimeout(arguments.callee, 1000);
-	})();
 });
 
 function onLoadApp() {
-	$('#app-loading').css('display','none');
-	/*var currTime = 0;
-	Utils.loop(function() {
-		if (currTime > 5) {
-			$('#app-loading').css('display','none');
-		}
-		currTime++;
-	}, 300);*/
+	$('#app-loading-bg').stop().animate({
+        opacity: 0
+    }, 500, function() {
+        $(this).css('display','none');
+    });
+    var myWindow = new WindowTT({
+        title: 'Lol',
+        html: 'My simple content',
+        modal: true
+    });
+    (function() {
+//		myWindow.toggle();
+//		setTimeout(arguments.callee, 1000);
+    })();
 }

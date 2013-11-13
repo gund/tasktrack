@@ -57,7 +57,7 @@ var Utils = {
 	},
 	loop: function(func, interval) {
 		(function() {
-			func();
+            func();
 			setTimeout(arguments.callee, interval);
 		})();
 	}
