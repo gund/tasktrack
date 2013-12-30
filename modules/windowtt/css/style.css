@@ -2,63 +2,171 @@
 
 /* Modal background */
 .window-modal {
-	display: block;
-	position: fixed;
-	top: 0;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	opacity: 0.5;
-	z-index: 500;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    z-index: 500;
 }
 
 /* Window */
 .window-window {
-	display: block;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	min-width: 100px;
-	min-height: 100px;
-	background: #ccc;
-	border: 1px solid #000;
-	font: 14px normal arial;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;	
-	opacity: 1;
-	z-index: 1000;
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    min-width: 100px;
+    min-height: 100px;
+    background: #ccc;
+    border: 1px solid #000;
+    font: 14px normal arial;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1000;
 }
 
 /* Modal Window */
 .window-window.modal {
-	position: fixed;
+    position: fixed;
 }
 
 /* Window Title */
 .window-window .window-title {
-	background: #000;
-	color: #fff;
-	text-align: center;
-	font-size: 18px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    height: 22px;
 }
 
 .window-window .window-title .window-close {
-	display: block;
-	position: relative;
-	margin-top: -10px;
-	margin-right: -10px;
-	width: 25px;
-	height: 25px;
-	background: url('../images/close-button.png') center transparent;
-	cursor: pointer;
-	float: right;
+    display: block;
+    position: relative;
+    margin-top: -10px;
+    margin-right: -10px;
+    width: 25px;
+    height: 25px;
+    background: url('../images/close-button.png') center transparent;
+    cursor: pointer;
+    float: right;
 }
 
 /* Window Content */
 .window-window .window-html {
-	padding: 5px;
+    padding: 5px;
+}
+
+.window-html input {
+    margin-bottom: 5px;
+}
+
+/*.window-html input[type=button] {
+    min-width: 75px;
+}*/
+
+.window-html table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+
+.window-html table, .window-html th, .window-html td {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.window-html table thead {
+    font-weight: bold;
+}
+
+.window-html table .second {
+    width: 130px;
+}
+
+.window-html select[multiple] {
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.window-html hr {
+    margin-bottom: 5px;
+}
+
+.window-html input[type=text] {
+    margin-right: 10px;
+}
+
+/* Main Table Control */
+
+#table-task-control {
+    width: 100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    text-shadow: 0 0 5px #fff;
+}
+
+#table-task-control tr, #table-task-control td {
+    padding: 0 5px;
+    border: 1px solid #000000;
+}
+
+/* Main Table Task */
+
+#table-task-list {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+#table-task-list tr, #table-task-list td {
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+table .task-name {
+    width: 410px;
+}
+
+table .task-date {
+    width: 100px;
+}
+
+table .task-time {
+    width: 150px;
+}
+
+table .task-proj {
+    width: 350px;
+}
+
+table .task-control {
+    width: 260px;
+}
+
+table#table-task-list .task-time {
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #0400ff, -1px -1px 2px #000000;
+}
+
+table#table-task-list .task-name {
+    font: 18px normal Arial;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(255, 0, 23, 0.50), 1px 1px 1px #eaff83, -1px -1px 1px #93ffa8;
+}
+
+table#table-task-list .task-proj {
+    font: 17px normal Arial;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.70);
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Task Track</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate-custom.css">
     <script type="text/javascript" src="js/include-dev.js"></script>
 </head>
 <body>
@@ -20,14 +21,30 @@
         <div id="sync" class="main">Sync</div>
         <div id="manage-projects">Manage Projects</div>
         <div id="add-new-task">Add New Task</div>
-        <div id="start-task" class="main">Start Task</div>
-        <div id="pause-task" class="main">Pause Task</div>
-        <div id="edit-task" class="main">Edit Task</div>
-        <div id="delete-task" class="main">Delete Task</div>
+        <div id="start-task" class="main">Start Tasks</div>
+        <div id="stop-task" class="main">Stop Tasks</div>
+        <div id="delete-task" class="main">Delete Tasks</div>
+        <div id="settings">Settings</div>
     </div>
 </div>
 
-<div id="tasks">Empty Task List</div>
+<div id="tasks">
+    <table id="table-task-control">
+        <tr>
+            <td><input type="checkbox" id="task-control-checkbox"></td>
+            <td class="task-name">Name</td>
+            <td class="task-proj">Project</td>
+            <td class="task-time">Time</td>
+            <td class="task-date">Date</td>
+            <td class="task-control">Control</td>
+        </tr>
+    </table>
+    <table id="table-task-list">
+        <tr>
+            <td colspan="5">Empty Task List</td>
+        </tr>
+    </table>
+</div>
 
 </body>
 </html>

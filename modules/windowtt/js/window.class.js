@@ -24,6 +24,8 @@ function WindowTT(settings) {
         : DEF_WIDTH;
     this.height = (settings.height !== undefined) ? parseInt(settings.height)
         : DEF_HEIGHT;
+    this.max_height = (settings.max_height !== undefined) ? parseInt(settings.max_height)
+        : 0;
     this.modal = (settings.modal !== undefined) ? (settings.modal == true)
         : DEF_MODAL;
     this.showSpeed = (settings.showSpeed !== undefined) ? parseInt(settings.showSpeed)
@@ -45,11 +47,13 @@ WindowTT.prototype.title = '';
 WindowTT.prototype.html = '';
 WindowTT.prototype.width = 0;
 WindowTT.prototype.height = 0;
+WindowTT.prototype.max_height = 0;
 WindowTT.prototype.modal = DEF_MODAL;
 WindowTT.prototype.bodyCtx = new Object();
 WindowTT.prototype.windowCtx = new Object();
 WindowTT.prototype.modalCtx = new Object();
 WindowTT.prototype.windowTitle = new Object();
+WindowTT.prototype.windowCloseBtn = new Object();
 WindowTT.prototype.windowId = 0;
 /**
  * Window State: 0 - Not Initialized; 1 - Hidden; 2 - Shown
@@ -72,11 +76,13 @@ WindowTT.prototype.init = function () {
         var windowClass = (this.modal) ? ' modal' : '';
         var windowElement = document.createElement('div');
         var tmpWidth = 'left:calc((100%/2) - ' + (this.width / 2) + 'px)';
-        var tmpHeight = 'top:calc((100%/2) - ' + (this.height / 2) + 'px)';
+        var tmpHeight = 'top:calc((100%/2) - ' + (((this.max_height != 0)?this.max_height:this.height) / 2) + 'px)';
         windowElement.setAttribute('id', 'window-' + this.windowId);
         windowElement.setAttribute('class', 'window-window' + windowClass);
+        var height = (this.max_height != 0) ?
+            'max-height:' + this.max_height + 'px;min-height:' + this.height + 'px' : 'height:' + this.height + 'px';
         windowElement.setAttribute('style', 'opacity:0;display:none;width:'
-            + this.width + 'px;height:' + this.height + 'px;' + tmpHeight + ';' + tmpWidth);
+            + this.width + 'px;' + height + ';' + tmpHeight + ';' + tmpWidth);
         /*
          * windowElement.setAttribute('width', this.width + 'px');
          * windowElement.setAttribute('height', this.height + 'px');
@@ -95,12 +101,16 @@ WindowTT.prototype.init = function () {
         windowCloseBtn.addEventListener('click', function (event) {
             wnd.close();
         });
+        this.windowCloseBtn = windowCloseBtn;
         windowTitle.appendChild(windowCloseBtn);
         this.windowCtx.append(windowTitle);
         this.windowTitle = $('#window-' + this.windowId + ' .window-title');
         // Init Window HTML
         var windowHTML = document.createElement('div');
         windowHTML.setAttribute('class', 'window-html');
+        var height = (this.max_height != 0) ?
+            'max-height:'+(this.max_height-32) : 'height:'+(this.height-32);
+        windowHTML.setAttribute('style', height+'px;overflow:auto;overflow-x:hidden;');
         windowHTML.innerHTML = this.html;
         this.windowCtx.append(windowHTML);
         this.windowHTML = $('#window-' + this.windowId + ' .window-html');
@@ -113,6 +123,8 @@ WindowTT.prototype.init = function () {
 // Getters&Setters
 WindowTT.prototype.setTitle = function (title) {
     this.title = (title !== undefined) ? title : '';
+    this.windowTitle.html(this.title);
+    this.windowTitle.append(this.windowCloseBtn)
 };
 
 WindowTT.prototype.getTitle = function () {

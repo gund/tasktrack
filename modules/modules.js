@@ -13,7 +13,7 @@ const APP_MODULES = 'modules';
 var MODULE_PATH = new Array();
 
 // Modules
-var appModules = ['windowtt'];
+var appModules = ['windowtt', 'core_100', 'gh_buttons'];
 
 //Include Modules
 Utils.includeModules(appModules);
