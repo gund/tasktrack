@@ -33,11 +33,13 @@ var sWindow = {
     save: function () {
         var login = $('#settings-login').val();
         var pass = $('#settings-pass').val();
+        Utils.log(MultiCrypting.encode(pass));
         if (login.length > 3 && pass.length > 3) {
             Utils.log("Saving settings...");
             TT.db.objectStore("settings").put({
                 "login": login,
-                "password": pass
+                "password": pass,
+                "up2date": TT.up2date
             }, 1).then(function () {
                     TT.checkLogin();
                     sWindow.wnd.close();
@@ -104,7 +106,7 @@ var projWindow = {
             throw new Error("Invalid argument!");
         }
         // Get Item
-        TT.db.objectStore(TT_PROJECTS[1]).get(itemId).done(function(item) {
+        TT.db.objectStore(TT_PROJECTS[1]).get(itemId).done(function (item) {
             // New Item
             var newItem = {
                 "id": itemId,
@@ -119,7 +121,7 @@ var projWindow = {
             }, function () {
                 Utils.log("Item NOT saved!");
             });
-        }).fail(function() {
+        }).fail(function () {
                 throw new Error("Failed to get Project!");
             });
     },
@@ -327,6 +329,26 @@ var taskWindow = {
     }
 };
 
+var errorWindow = {
+    wnd: null,
+    setup: function () {
+        this.wnd = new WindowTT({
+            title: 'Error!',
+            modal: true,
+            height: 100,
+            max_height: 250,
+            closeAble: false
+        });
+    },
+    show: function (text) {
+        this.wnd.setHtml('<div align="center" style="font: 20px normal Arial">' + text + '</div>');
+        this.wnd.show();
+        setTimeout(function () {
+            errorWindow.wnd.close();
+        }, 2000);
+    }
+};
+
 /* #### Windows Section END #### */
 
 // Class to control Task List
@@ -356,26 +378,26 @@ var TaskList = {
             throw new Error("Invalid argument!");
         }
         // Get Task
-        TT.db.objectStore(TT_TASKS[1]).get(taskId).done(function(task) {
+        TT.db.objectStore(TT_TASKS[1]).get(taskId).done(function (task) {
             task.status = DB_DELETED; // Delete Task
             // Save Task
-            TT.db.objectStore(TT_TASKS[1]).put(task).done(function() {
+            TT.db.objectStore(TT_TASKS[1]).put(task).done(function () {
                 TT.clearTableListCache(TT_TASKS).done(self.render).fail(function () {
                     throw new Error("Failed to update Task List!");
                 });
-            }).fail(function() {
+            }).fail(function () {
+                    throw new Error("Failed to delete Task!");
+                });
+        }).fail(function () {
                 throw new Error("Failed to delete Task!");
             });
-        }).fail(function() {
-            throw new Error("Failed to delete Task!");
-        });
         /*TT.db.objectStore(TT_TASKS[1]).delete(taskId).done(function () {
-            TT.clearTableListCache(TT_TASKS).done(self.render).fail(function () {
-                throw new Error("Failed to update Task List!");
-            });
-        }).fail(function () {
-                throw new Error("Failed to remove Task from inDB!");
-            });*/
+         TT.clearTableListCache(TT_TASKS).done(self.render).fail(function () {
+         throw new Error("Failed to update Task List!");
+         });
+         }).fail(function () {
+         throw new Error("Failed to remove Task from inDB!");
+         });*/
     },
     changeState: function (state, taskId) {
         if (typeof  state != 'boolean') {
@@ -499,6 +521,7 @@ function onLoadApp() {
     sWindow.setup();
     projWindow.setup();
     taskWindow.setup();
+    errorWindow.setup();
     initEvents();
     TT = new TaskTrackCore();
     TT.done(function () {
@@ -522,6 +545,7 @@ function initEvents() {
         taskWindow.render();
         taskWindow.wnd.show();
     });
+    $('#sync').click(sync);
     $('#start-task').click(startTasks);
     $('#stop-task').click(stopTasks);
     $('#delete-task').click(deleteTasks);
@@ -573,4 +597,12 @@ function toggleTasks() {
     $('#table-task-list .checkbox_js').each(function () {
         $(this).prop('checked', check).change();
     })
+}
+
+function sync() {
+    TT.syncServer2Client().done(function () {
+        Utils.log("AZAZAZAZa");
+    }).fail(function (status, textStatus) {
+            Utils.log("Failed XHR!", status, textStatus);
+        });
 }

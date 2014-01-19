@@ -32,6 +32,7 @@ function WindowTT(settings) {
         : DEF_SHOW_SPEED;
     this.hideSpeed = (settings.hideSpeed !== undefined) ? parseInt(settings.hideSpeed)
         : DEF_HIDE_SPEED;
+    this.closeAble = (settings.closeAble !== undefined) ? !!settings.closeAble : true;
 
     this.bodyCtx = document.body;
     this.windowId = Utils.getId();
@@ -54,7 +55,9 @@ WindowTT.prototype.windowCtx = new Object();
 WindowTT.prototype.modalCtx = new Object();
 WindowTT.prototype.windowTitle = new Object();
 WindowTT.prototype.windowCloseBtn = new Object();
+WindowTT.prototype.windowHtml = new Object();
 WindowTT.prototype.windowId = 0;
+WindowTT.prototype.closeAble = true;
 /**
  * Window State: 0 - Not Initialized; 1 - Hidden; 2 - Shown
  */
@@ -76,7 +79,7 @@ WindowTT.prototype.init = function () {
         var windowClass = (this.modal) ? ' modal' : '';
         var windowElement = document.createElement('div');
         var tmpWidth = 'left:calc((100%/2) - ' + (this.width / 2) + 'px)';
-        var tmpHeight = 'top:calc((100%/2) - ' + (((this.max_height != 0)?this.max_height:this.height) / 2) + 'px)';
+        var tmpHeight = 'top:calc((100%/2) - ' + (((this.max_height != 0) ? this.max_height : this.height) / 2) + 'px)';
         windowElement.setAttribute('id', 'window-' + this.windowId);
         windowElement.setAttribute('class', 'window-window' + windowClass);
         var height = (this.max_height != 0) ?
@@ -94,24 +97,27 @@ WindowTT.prototype.init = function () {
         windowTitle.setAttribute('class', 'window-title');
         windowTitle.innerHTML = this.title;
 //					+ '<span class="window-close"></span>';
-        // Create close button
-        var windowCloseBtn = document.createElement('span');
-        windowCloseBtn.setAttribute('class', 'window-close');
         var wnd = this;
-        windowCloseBtn.addEventListener('click', function (event) {
-            wnd.close();
-        });
-        this.windowCloseBtn = windowCloseBtn;
-        windowTitle.appendChild(windowCloseBtn);
+        // Create close button
+        if (this.closeAble) {
+            var windowCloseBtn = document.createElement('span');
+            windowCloseBtn.setAttribute('class', 'window-close');
+            windowCloseBtn.addEventListener('click', function (event) {
+                wnd.close();
+            });
+            this.windowCloseBtn = windowCloseBtn;
+            windowTitle.appendChild(windowCloseBtn);
+        }
         this.windowCtx.append(windowTitle);
         this.windowTitle = $('#window-' + this.windowId + ' .window-title');
         // Init Window HTML
         var windowHTML = document.createElement('div');
         windowHTML.setAttribute('class', 'window-html');
         var height = (this.max_height != 0) ?
-            'max-height:'+(this.max_height-32) : 'height:'+(this.height-32);
-        windowHTML.setAttribute('style', height+'px;overflow:auto;overflow-x:hidden;');
+            'max-height:' + (this.max_height - 32) : 'height:' + (this.height - 32);
+        windowHTML.setAttribute('style', height + 'px;overflow:auto;overflow-x:hidden;');
         windowHTML.innerHTML = this.html;
+        this.windowHtml = windowHTML;
         this.windowCtx.append(windowHTML);
         this.windowHTML = $('#window-' + this.windowId + ' .window-html');
 
@@ -124,7 +130,8 @@ WindowTT.prototype.init = function () {
 WindowTT.prototype.setTitle = function (title) {
     this.title = (title !== undefined) ? title : '';
     this.windowTitle.html(this.title);
-    this.windowTitle.append(this.windowCloseBtn)
+    if (this.closeAble)
+        this.windowTitle.append(this.windowCloseBtn)
 };
 
 WindowTT.prototype.getTitle = function () {
@@ -133,6 +140,7 @@ WindowTT.prototype.getTitle = function () {
 
 WindowTT.prototype.setHtml = function (html) {
     this.html = (html !== undefined) ? html : '';
+    this.windowHtml.innerHTML = this.html;
 };
 
 WindowTT.prototype.getHtml = function () {
@@ -148,7 +156,7 @@ WindowTT.prototype.getModal = function () {
 }
 
 // Manipulate Window State
-WindowTT.prototype.show = function (modal) {
+WindowTT.prototype.show = function () {
     Utils.log('Window show');
     if (this.windowState === 1) {
         if (this.modal) {
@@ -166,7 +174,7 @@ WindowTT.prototype.show = function (modal) {
     return this;
 };
 
-WindowTT.prototype.close = function (modal) {
+WindowTT.prototype.close = function () {
     Utils.log('Window close');
     if (this.windowState === 2) {
         if (this.modal) {
