@@ -32,6 +32,12 @@ const TT_PROJECTS = [1, "projectList"];
 const TT_TASKS = [2, "taskList"];
 const TASK_PAUSED = 0;
 const TASK_ACTIVE = 1;
+const E_INV_SYNC_METHOD = 100;
+const E_MISS_DATA = 101;
+const E_MISS_LOGIN_PASS = 102;
+const E_INV_LOGIN_PASS = 103;
+const E_FAIL_SAVE_DATA = 104;
+
 // TaskTrackCore Vars
 TaskTrackCore.prototype.version = "1.0.0";
 TaskTrackCore.prototype.dbAdapter;
@@ -62,6 +68,19 @@ TaskTrackCore.prototype.initSettings = function () {
     Utils.log("Init App Settings");
     var db = this.db, me = this;
     var me = this;
+    // Init Ajax Settings
+    $.ajaxSetup({
+        url: '/server/sync.php',
+        type: 'POST',
+        dataType: 'JSON',
+        async: true,
+        success: function (data, textStatus, XHR) {
+            me.handleSuccess(data, textStatus, XHR);
+        },
+        error: function (XHR, textStatus, errorThrown) {
+            me.handleError(XHR, textStatus, errorThrown);
+        }
+    });
     db.objectStore("settings").count().done(function (count) {
         if (count === 0) {
             // Add new row
@@ -79,30 +98,18 @@ TaskTrackCore.prototype.initSettings = function () {
                     sWindow.wnd.show();
                 } else {
                     $('#settings-login').val(item.login);
-                    $('#settings-pass').val(item.password);
+                    $('#settings-pass').val('').prop('placeholder', "Type to change password or leave empty...");
                     me.checkLogin();
                 }
                 me.up2date = item.up2date;
             });
         }
     });
-    // Init Ajax Settings
-    $.ajaxSetup({
-        url: '/server/sync.php',
-        type: 'POST',
-        dataType: 'JSON',
-        async: true,
-        success: function (data, textStatus, XHR) {
-            me.handleSuccess(data, textStatus, XHR);
-        },
-        error: function (XHR, textStatus, errorThrown) {
-            me.handleError(XHR, textStatus, errorThrown);
-        }
-    });
 };
 
 TaskTrackCore.prototype.checkLogin = function () {
-    //TODO Check login&password via Ajax and set isConnected true|false
+    this.syncServer2Client();
+    //TODO Check login&password ( not needed now ^_^ )
 };
 
 TaskTrackCore.prototype.clearTableListCache = function (table, sysCall) {
@@ -186,8 +193,7 @@ TaskTrackCore.prototype.changeSyncState = function (state) {
         item.up2date = state;
         me.db.objectStore("settings").put(item, 1);
     });
-    Utils.log("Changing App status!");
-}
+};
 
 /**
  * METHODS FOR SERVER API
@@ -239,25 +245,60 @@ TaskTrackCore.prototype.getData2Sync = function () {
 };
 
 TaskTrackCore.prototype.syncServer2Client = function (sysCall) {
-    var me = this;
-    if (sysCall === undefined && sysCall !== true)
+    var me = this, percNull = 50, speed = 7;
+    if (sysCall === undefined && sysCall !== true) {
         this.sharedDfd = $.Deferred();
+        percNull = 0;
+        speed = 17;
+    }
     this.dfdFlag = 0;
-    this.checkNetConn().done(function (connected) {
+    var wait1 = this.db.objectStore("settings").get(1);
+    var wait2 = this.checkNetConn();
+    $.when(wait1, wait2).done(function (settings, connected) {
+        settings = settings[0];
         if (connected) {
             if (!me.up2date) {
-                me.syncClient2Server().done(function () {
+                me.syncClient2Server(true).done(function () {
                     me.syncServer2Client(true);
                 });
             } else {
                 Utils.log('Starting synchronization S2C...');
                 $.ajax({
                     data: {
-                        method: 's2c'
+                        method: 's2c',
+                        login: settings.login,
+                        password: settings.password
+                    },
+                    beforeSend: function () {
+                        errorWindow.showBefore(99, percNull, speed);
                     }
                 });
-                me.sharedDfd.done(function () {
-                    Utils.log("S2C Complete!");
+                me.sharedDfd.done(function (data) {
+                    var projects = data.data.projects;
+                    var tasks = data.data.tasks;
+                    var queue = [];
+
+                    me.dbAdapter.flushTaskAndProj().done(function () {
+                        // Add new Projects
+                        for (var i in projects) {
+                            queue.push(me.db.objectStore(TT_PROJECTS[1]).put(projects[i]));
+                        }
+
+                        // Add new Tasks
+                        for (var i in tasks) {
+                            queue.push(me.db.objectStore(TT_TASKS[1]).put(tasks[i]));
+                        }
+
+                        $.when(queue).done(function () {
+                            me.renderTaskAndProj();
+                        }).fail(function () {
+                                throw new Error('Failed to save data to inDB!');
+                            });
+                        Utils.log("S2C Complete!");
+                    }).fail(function () {
+                            throw new Error('Failed to update inDB!');
+                        });
+
                 });
             }
         } else {
@@ -267,11 +308,18 @@ TaskTrackCore.prototype.syncServer2Client = function (sysCall) {
     return this.sharedDfd.promise();
 };
 
-TaskTrackCore.prototype.syncClient2Server = function () {
-    var me = this;
+TaskTrackCore.prototype.syncClient2Server = function (sysCall) {
+    var me = this, percNull = 99, speed = 17;
+    if (sysCall !== undefined && sysCall === true) {
+        percNull = 49;
+        speed = 7;
+    }
     this.sharedDfd2 = $.Deferred();
     this.dfdFlag = 1;
-    this.checkNetConn().done(function (connected) {
+    var wait1 = this.db.objectStore("settings").get(1);
+    var wait2 = this.checkNetConn();
+    $.when(wait1, wait2).done(function (settings, connected) {
+        settings = settings[0];
         if (connected) {
             if (!me.up2date) {
                 Utils.log('Starting synchronization C2S...');
@@ -279,7 +327,12 @@ TaskTrackCore.prototype.syncClient2Server = function () {
                     $.ajax({
                         data: {
                             method: 'c2s',
-                            data: data
+                            data: data,
+                            login: settings.login,
+                            password: settings.password
+                        },
+                        beforeSend: function () {
+                            errorWindow.showBefore(percNull, 0, speed);
                         }
                     });
                 });
@@ -288,6 +341,8 @@ TaskTrackCore.prototype.syncClient2Server = function () {
                     me.up2date = true;
                     me.changeSyncState(true);
                 });
+            } else {
+                errorWindow.show("Synchronization Completed!", false);
             }
         } else {
             errorWindow.show("Check your Internet connection!");
@@ -296,15 +351,48 @@ TaskTrackCore.prototype.syncClient2Server = function () {
     return this.sharedDfd2.promise();
 };
 
+TaskTrackCore.prototype.renderTaskAndProj = function () {
+    this.clearTableListCache(TT_PROJECTS, true);
+    this.clearTableListCache(TT_TASKS, true).done(TaskList.render);
+};
+
 /* ### AJAX HANDLERS --- START ### */
 
 TaskTrackCore.prototype.handleSuccess = function (data, textStatus, XHR) {
-    //TODO Complete Success Handler for Ajax
-    Utils.log('Success!', data, textStatus);
-    if (this.dfdFlag == 0)
-        this.sharedDfd.resolve(data, textStatus);
-    else
-        this.sharedDfd2.resolve(data, textStatus);
+    Utils.log('Success!', data, data.msg);
+    if (data.status == 200) {
+        if (this.dfdFlag == 0)
+            this.sharedDfd.resolve(data, data.status);
+        else
+            this.sharedDfd2.resolve(data, data.status);
+    } else {
+        if (this.dfdFlag == 0)
+            this.sharedDfd.reject(data.status, data.msg);
+        else
+            this.sharedDfd2.reject(data.status, data.msg);
+    }
+    switch (data.status) {
+        case 200:
+            errorWindow.show("Synchronization Completed!", false);
+            break;
+        case E_INV_SYNC_METHOD:
+            errorWindow.show("Invalid synchronization method!");
+            break;
+        case E_MISS_DATA:
+            errorWindow.show("Missing data for sync!");
+            break;
+        case E_MISS_LOGIN_PASS:
+            errorWindow.show("Missing Login and/or Password!");
+            setTimeout('sWindow.wnd.show()', 2000);
+            break;
+        case E_INV_LOGIN_PASS:
+            errorWindow.show("Invalid Login and/or Password!");
+            setTimeout('sWindow.wnd.show()', 2000);
+            break;
+        case E_FAIL_SAVE_DATA:
+            errorWindow.show("Failed to synchronization data!");
+            break;
+    }
 };
 
 TaskTrackCore.prototype.handleError = function (XHR, textStatus, errorThrown) {

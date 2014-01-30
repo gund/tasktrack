@@ -1,6 +1,7 @@
 <?php
 require_once 'UserInterface.php';
 require_once 'DataBase.php';
+require_once 'class.MC.php';
 
 /**
  * User Class
@@ -13,6 +14,7 @@ class User implements \UserInterface {
 	const DATA_SATE_NOTFOUND = 0;
 	const DATA_STATE_FOUND = 1;
 	const DATA_STATE_MODIFIYED = 2;
+	const SECURITY_LEVEL = 1; // 0 - 9, Highest more securly
 	/**
 	 *
 	 * @var string
@@ -44,11 +46,8 @@ class User implements \UserInterface {
 	 * @param string $login        	
 	 * @param string $password        	
 	 */
-	function __construct($login, $password) {
+	function __construct() {
 		DataBase::connect ();
-		if (! $this->login ( $login, $password )) {
-			$this->register ( $login, $password );
-		}
 	}
 	
 	/*
@@ -59,8 +58,8 @@ class User implements \UserInterface {
 			return false;
 		}
 		$ret = false;
-		if ($stmt = DataBase::$db->prepare ( "SELECT * FROM users WHERE login=? AND password=? LIMIT 1" )) {
-			$stmt->bind_param ( 'ss', $login, $password );
+		if ($stmt = DataBase::$db->prepare ( "SELECT * FROM users WHERE login=? LIMIT 1" )) {
+			$stmt->bind_param ( 's', $login );
 			$stmt->execute ();
 			$result = $stmt->get_result ();
 			if ($result->num_rows == 0) {
@@ -68,11 +67,18 @@ class User implements \UserInterface {
 				$ret = false;
 			} else {
 				$userInfo = $result->fetch_array ( MYSQLI_ASSOC );
-				$this->login = $userInfo ["login"];
-				$this->password = $userInfo ["password"];
-				$this->id = $userInfo ["id"];
-				$this->state = self::U_LOG_IN;
-				$ret = true;
+				$mc = new MultiCrypting ();
+				$truePass = $mc->decode ( $userInfo ["password"] );
+				if ($password === $truePass) {
+					$this->login = $userInfo ["login"];
+					$this->password = $userInfo ["password"];
+					$this->id = $userInfo ["id"];
+					$this->state = self::U_LOG_IN;
+					$ret = true;
+				} else {
+					$this->state = self::U_LOG_OUT;
+					$ret = false;
+				}
 			}
 			$stmt->close ();
 		} else
@@ -83,13 +89,15 @@ class User implements \UserInterface {
 	/*
 	 * (non-PHPdoc) @see UserInterface::register()
 	 */
-	public function register($login, $password) {
+	public function register($login, $password, $email) {
 		if ($this->validLoginPass ( $login, $password )) {
 			return false;
 		}
 		$ret = false;
-		if ($stmt = DataBase::$db->prepare ( "INSERT INTO users VALUES (NULL, ?, ?, NULL)" )) {
-			$stmt->bind_param ( 'ss', $login, $password );
+		$mc = new MultiCrypting();
+		$password = $mc->encode($password, self::SECURITY_LEVEL);
+		if ($stmt = DataBase::$db->prepare ( "INSERT INTO users VALUES (NULL, ?, ?, ?, NULL)" )) {
+			$stmt->bind_param ( 'sss', $login, $password, $email );
 			$stmt->execute ();
 			if ($stmt->errno) {
 				$this->state = self::U_LOG_OUT;
@@ -113,7 +121,7 @@ class User implements \UserInterface {
 	 * (non-PHPdoc) @see UserInterface::isLoggedIn()
 	 */
 	public function isLoggedIn() {
-		return $this->state;
+		return ( bool ) $this->state;
 	}
 	
 	/*
@@ -149,55 +157,6 @@ class User implements \UserInterface {
 			return true;
 		else
 			return false;
-	}
-	
-	/*
-	 * (non-PHPdoc) @see UserInterface::compareUserData()
-	 */
-	public function compareUserData($newData) {
-		$data = $this->getUserData ();
-		if (! $data || ! is_array ( $newData ) || ! isset ( $newData ["projects"] ) || ! isset ( $newData ["tasks"] )) {
-			return false;
-		}
-		// Compare projects
-		$newIsBigger = ( bool ) (sizeof ( $newData ["projects"] ) > sizeof ( $data ["projects"] ));
-		$bigger = ($newIsBigger) ? $newData ["projects"] : $data ["projects"];
-		$smaller = (! $newIsBigger) ? $newData ["projects"] : $data ["projects"];
-		// Prepare bigger arrays into one
-		$projBig = array ();
-		for($a = sizeof ( $bigger ); $a >= 0; $a ++) {
-			foreach ( $bigger [$a] ["data"] as &$val )
-				$val ["status"] = 'D';
-			$projBig .= $bigger [$a] ["data"];
-		}
-		// Comparing
-		for($i = sizeof ( $smaller ); $i >= 0; $i ++) {
-			for($j = sizeof ( $smaller [$i] ["data"] ); $j >= 0; $j ++) {
-				$id = $smaller [$i] ["data"] [$j] ["id"];
-				$name = $smaller [$i] ["data"] [$j] ["name"];
-				$state = self::DATA_SATE_NOTFOUND;
-				foreach ( $projBig as $big ) {
-					if ($big ["id"] == $id) {
-						$state = self::DATA_STATE_FOUND;
-						if ($big ["id"] != $name) {
-							$state = self::DATA_STATE_MODIFIYED;
-						}
-						break;
-					}
-				}
-				switch ($state) {
-					case self::DATA_SATE_NOTFOUND :
-						
-						break;
-					case self::DATA_STATE_FOUND :
-						
-						break;
-					case self::DATA_STATE_MODIFIYED :
-						
-						break;
-				}
-			}
-		}
 	}
 	
 	/**
@@ -243,7 +202,7 @@ class User implements \UserInterface {
 	 */
 	private function getTasks() {
 		$this->tasks = null;
-		if ($stmt = DataBase::$db->prepare ( "SELECT id, data FROM tasks WHERE user_id=? LIMIT 1" )) {
+		if ($stmt = DataBase::$db->prepare ( "SELECT data FROM tasks WHERE user_id=? LIMIT 1" )) {
 			$stmt->bind_param ( "i", $this->id );
 			$stmt->execute ();
 			$result = $stmt->get_result ();
@@ -268,41 +227,53 @@ class User implements \UserInterface {
 	 * @return boolean - Saved or not
 	 */
 	private function saveProjAndTasks($what, $data) {
-		if (! is_array ( $data ) || empty ( $data ) || ($what != 'p' && $what != 't')) {
+		if (! is_array ( $data ) || ($what != 'p' && $what != 't')) {
 			return false;
 		}
 		$what = ($what == 'p') ? 'projects' : 'tasks';
-		$deleteQuery = "DELETE FROM ? WHERE id=? AND user_id=?";
-		$insertQuery = "INSERT INTO ? VALUES (NULL, ?, ?)";
-		$updateQuery = "UPDATE ? SET data=? WHERE id=? AND user_id=?";
-		$stmt = DataBase::$db->stmt_init ();
+		$selectQuery = "SELECT * FROM $what WHERE user_id=?";
+		$deleteQuery = "DELETE FROM $what WHERE id=? AND user_id=?";
+		$insertQuery = "INSERT INTO $what VALUES (NULL, ?, ?, NULL)";
+		$updateQuery = "UPDATE $what SET data=? WHERE id=? AND user_id=?";
+		// Get Id to save
+		$dataId = null;
+		$stmt = DataBase::$db->prepare ( $selectQuery );
 		if (! $stmt) {
 			throw new RuntimeException ( "SQL Error in SQL Statements!" );
 		}
-		foreach ( $data as $arProj ) {
-			foreach ( $arProj ["data"] as &$project ) {
-				if (isset ( $project ["status"] ) && $project ["status"] == 'D')
-					unset ( $project );
-				else
-					unset ( $project ["status"] );
-			}
-			if (empty ( $arProj ["data"] )) {
-				// Delete
-				$stmt->prepare ( $deleteQuery );
-				$stmt->bind_param ( 'sii', $what, $arProj ["id"], $this->id );
-			} elseif (! isset ( $arProj ["id"] )) {
-				// Insert
-				$stmt->prepare ( $insertQuery );
-				$stmt->bind_param ( 'sis', $what, $this->id, serialize ( $arProj ["data"] ) );
-			} else {
-				// Update
-				$stmt->prepare ( $updateQuery );
-				$stmt->bind_param ( 'ssii', $what, serialize ( $arProj ["data"] ), $arProj ["id"], $this->id );
-			}
-			$stmt->execute ();
+		$stmt->bind_param ( 'i', $this->id );
+		$stmt->execute ();
+		$result = $stmt->get_result ();
+		if ($result->num_rows != 0) {
+			$arInfo = $result->fetch_array ( MYSQLI_ASSOC );
+			$dataId = $arInfo ["id"];
 		}
+		// Modify data to normal state
+		foreach ( $data as &$arData ) {
+			if ($arData ["status"] == 0) {
+				unset($data[$arData["id"]]);
+			} else {
+				$arData ["status"] = 1;
+			}
+		}
+		// Save Data
+		$stmt->reset ();
+		if ($dataId === null) {
+			// Insert
+			$stmt->prepare ( $insertQuery );
+			$stmt->bind_param ( 'is', $this->id, serialize ( $data ) );
+		} else {
+			// Update
+			$stmt->prepare ( $updateQuery );
+			$stmt->bind_param ( 'sii', serialize ( $data ), $dataId, $this->id );
+		}
+		$stmt->execute ();
+		$ret = (! DataBase::$db->errno) ? true : false;
 		$stmt->close ();
-		return true;
+		return $ret;
+	}
+	public function getState() {
+		return $this->state;
 	}
 }
 

@@ -139,7 +139,7 @@ table .task-name {
 }
 
 table .task-date {
-    width: 100px;
+    width: 110px;
 }
 
 table .task-time {
@@ -151,7 +151,7 @@ table .task-proj {
 }
 
 table .task-control {
-    width: 260px;
+    width: 265px;
 }
 
 table#table-task-list .task-time {

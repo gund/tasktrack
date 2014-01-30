@@ -2,777 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21f77dc-c782-401e-9503-31076e069f97" name="Default" comment="">
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\ext-theme-classic-sandbox-all-debug.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\ext-theme-classic-sandbox-all-rtl-debug.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\ext-theme-classic-sandbox-all-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\ext-theme-classic-sandbox-all.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\boundlist\trigger-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\corners-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\l-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\l.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\r-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\r.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\tb-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\box\tb.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn-group\btn-group-default-framed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn-group\btn-group-default-framed-notitle-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn-group\btn-group-default-framed-notitle-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn-group\btn-group-default-framed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-large-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-medium-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-small-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-large-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-medium-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\btn\btn-default-toolbar-small-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\group-cs.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\group-lr.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\group-tb.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-b-noline.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-b.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-bo.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-light-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-light.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-noline-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-noline.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-o-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-o.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\button\s-arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\datepicker\datepicker-footer-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\datepicker\datepicker-header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\dd\drop-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\dd\drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\dd\drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\editor\tb-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\clear-trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\clear-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\date-trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\date-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\error-tip-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\exclamation.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\radio.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\search-trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\search-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\spinner-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\spinner-small-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\spinner-small.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\text-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\trigger-square-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\trigger-square.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\trigger-tpl-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\trigger-tpl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\form\trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid-row-editor-buttons\grid-row-editor-buttons-default-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid-row-editor-buttons\grid-row-editor-buttons-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid-row-editor-buttons\grid-row-editor-buttons-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid-row-editor-buttons\grid-row-editor-buttons-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\arrow-left-white.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\arrow-right-white.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\cell-special-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\cell-special-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\cell-special-selected-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\cell-special-selected-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\col-move-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\col-move-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\column-header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\column-header-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\columns.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\dd-insert-arrow-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\dd-insert-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\dd-insert-arrow-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\dd-insert-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\dirty-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\dirty.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\done.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\footer-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid-blue-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid-blue-split.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid-hrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid-split.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid-vista-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid3-hd-btn-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid3-hd-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid3-hrow-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid3-hrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\grid3-rowheader.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\group-by.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\group-collapse.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\group-expand-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\group-expand.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hd-pop.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hmenu-asc.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hmenu-desc.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hmenu-lock.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hmenu-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hmenu-unlock.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\hmenu-unlock.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\invalid_line.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\mso-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\nowait.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-first-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-first.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-last-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-last.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-next-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-next.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-prev-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\page-prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\pick-button.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\property-cell-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\property-cell-selected-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\refresh-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\refresh.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\row-check-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\row-expand-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\row-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\row-sel.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\sort-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\sort_asc.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\sort_desc.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\grid\wait.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\layout\mini-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\layout\mini-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\layout\mini-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\layout\mini-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\checked.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\group-checked.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\item-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\menu-item-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\menu-parent-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\menu-parent.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\menu.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\scroll-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\scroll-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\menu\unchecked.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-bottom-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-bottom-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-bg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-fbg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-sides-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-bg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-fbg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-sides-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-top-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-collapsed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-bg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-fbg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-sides-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-bg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-fbg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-sides-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-top-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-framed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-left-bg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-right-bg-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel-header\panel-header-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel\panel-default-framed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\panel\panel-default-framed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\progress\progress-default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\blue-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\glass-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\hd-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\icon-error.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\icon-info.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\icon-question.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\icon-warning.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\large-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\left-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\loading-balls.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\right-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\shadow-c.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\shadow-lr.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\shared\warning.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\e-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\e-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\ne-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\ne-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\nw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\nw-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\s-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\s-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\se-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\se-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\square.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\sw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\sizer\sw-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-thumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-v-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-v-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-v-thumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\slider\slider-v-thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-bottom-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-bottom-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-left-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-left-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-right-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-right-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-top-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\default-scroll-top-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\tab-bar-default-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\tab-bar-default-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\tab-bar-default-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab-bar\tab-bar-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-active-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-active-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-active-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-close.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-active-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-active-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-active-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tab\tab-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tip\tip-default-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tip\tip-default-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tip\tip-form-invalid-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tip\tip-form-invalid-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\toolbar\more-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\toolbar\more.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\toolbar\scroll-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\toolbar\scroll-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\toolbar\toolbar-default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tools\tool-sprite-tpl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tools\tool-sprites.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tools\tools-sprites-trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\arrows-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\arrows.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-above.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-append.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-below.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-between.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-under.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-end-minus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-end-minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-end-plus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-end-plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-end-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-end.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-line-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-minus-nl-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-minus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-minus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-plus-nl-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-plus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-plus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\elbow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\folder-open-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\folder-open.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\folder-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\folder.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\leaf-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\leaf.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\tree\s.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\util\splitter\mini-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\util\splitter\mini-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\util\splitter\mini-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\util\splitter\mini-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-left-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-right-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-collapsed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-left-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-right-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window-header\window-header-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window\window-default-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic-sandbox\images\window\window-default-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-bottom-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-bottom-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-left-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-left-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-right-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-right-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-top-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\default-scroll-top-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\tab-bar-default-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\tab-bar-default-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\tab-bar-default-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab-bar\tab-bar-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-bottom-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-close.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-active-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-active-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-active-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tab\tab-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tip\tip-default-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tip\tip-default-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tip\tip-form-invalid-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tip\tip-form-invalid-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\toolbar\more-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\toolbar\more.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\toolbar\scroll-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\toolbar\scroll-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\toolbar\toolbar-default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tools\tool-sprite-tpl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tools\tool-sprites.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tools\tools-sprites-trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\arrows-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\arrows.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-above.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-append.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-below.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-between.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-under.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-end-minus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-end-minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-end-plus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-end-plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-end-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-end.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-line-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-minus-nl-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-minus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-minus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-plus-nl-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-plus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-plus-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\elbow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\folder-open-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\folder-open.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\folder-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\folder.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\leaf-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\leaf.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\tree\s.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\util\splitter\mini-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\util\splitter\mini-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\util\splitter\mini-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\util\splitter\mini-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-left-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-right-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-collapsed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-left-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-right-corners-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window-header\window-header-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window\window-default-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-classic\images\window\window-default-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\ext-theme-gray-all-debug.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\ext-theme-gray-all-rtl-debug.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\ext-theme-gray-all-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\ext-theme-gray-all.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\boundlist\trigger-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\corners-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\l-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\l.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\r-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\r.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\tb-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\box\tb.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn-group\btn-group-default-framed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn-group\btn-group-default-framed-notitle-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn-group\btn-group-default-framed-notitle-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn-group\btn-group-default-framed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-large-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-medium-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-disabled-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-small-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-large-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-medium-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-focus-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-over-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-pressed-fbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\btn\btn-default-toolbar-small-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\btn-arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\btn-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\group-cs.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\group-lr.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\group-tb.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-b-noline.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-b.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-bo.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-light-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-light.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-noline-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-noline.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-o-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-o.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\button\s-arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\datepicker\datepicker-footer-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\datepicker\datepicker-header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\dd\drop-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\dd\drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\dd\drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\editor\tb-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\clear-trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\clear-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\date-trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\date-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\error-tip-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\exclamation.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\radio.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\search-trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\search-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\spinner-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\spinner-small-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\spinner-small.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\text-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\trigger-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\trigger-square-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\trigger-square.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\trigger-tpl-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\trigger-tpl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\form\trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\arrow-left-white.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\arrow-right-white.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\cell-special-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\cell-special-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\cell-special-selected-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\cell-special-selected-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\col-move-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\col-move-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\column-header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\column-header-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\columns.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\dd-insert-arrow-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\dd-insert-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\dd-insert-arrow-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\dd-insert-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\dirty-rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\dirty.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\done.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\footer-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid-blue-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid-blue-split.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid-hrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid-split.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid-vista-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid3-hd-btn-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid3-hd-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\git\tasktrack\ext-4.old\resources\ext-theme-gray\images\grid\grid3-hrow-over.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/DataBase.php" afterPath="$PROJECT_DIR$/server/DataBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/User.php" afterPath="$PROJECT_DIR$/server/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/UserInterface.php" afterPath="$PROJECT_DIR$/server/UserInterface.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/core_100/js/core.class.js" afterPath="$PROJECT_DIR$/modules/core_100/js/core.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js" afterPath="$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/modules.js" afterPath="$PROJECT_DIR$/modules/modules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/utils.js" afterPath="$PROJECT_DIR$/js/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/windowtt/js/window.class.js" afterPath="$PROJECT_DIR$/modules/windowtt/js/window.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reg.php" afterPath="$PROJECT_DIR$/reg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/windowtt/css/style.css" afterPath="$PROJECT_DIR$/modules/windowtt/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/sync.php" afterPath="$PROJECT_DIR$/server/sync.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasktrack.iws" />
@@ -796,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="35" selection-start="881" selection-end="881" vertical-scroll-proportion="-0.0" vertical-offset="442" max-vertical-offset="935">
+            <state line="5" column="48" selection-start="180" selection-end="180" vertical-scroll-proportion="0.15205725" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -808,18 +47,23 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="46" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="10421">
+            <state line="640" column="27" selection-start="25217" selection-end="25217" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2295">
               <folding>
-                <marker date="1390073502968" expanded="false" signature="14041:14064" placeholder="..." />
+                <element signature="e#272#2440#0" expanded="false" />
+                <element signature="e#2481#7403#0" expanded="false" />
+                <element signature="e#7437#14382#0" expanded="false" />
+                <element signature="e#14403#15887#0" expanded="false" />
+                <element signature="e#15972#22466#0" expanded="false" />
+                <marker date="1391105519917" expanded="false" signature="14770:14793" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.class.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="core.class.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/core_100/js/core.class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="47" selection-start="7948" selection-end="7948" vertical-scroll-proportion="0.61025643" vertical-offset="4046" max-vertical-offset="5576">
+            <state line="389" column="51" selection-start="12714" selection-end="12714" vertical-scroll-proportion="0.0" vertical-offset="6156" max-vertical-offset="7072">
               <folding />
             </state>
           </provider>
@@ -844,10 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js" />
-        <option value="$PROJECT_DIR$/modules/windowtt/js/window.class.js" />
-        <option value="$PROJECT_DIR$/modules/core_100/js/core.class.js" />
-        <option value="$PROJECT_DIR$/modules/js_base64/module.js" />
         <option value="$PROJECT_DIR$/modules/multi_crypting/module.js" />
         <option value="$PROJECT_DIR$/modules/js_mcrypt/js/Serpent.js" />
         <option value="$PROJECT_DIR$/modules/js_base64/js/class.base64.js" />
@@ -858,8 +98,12 @@
         <option value="$PROJECT_DIR$/modules/js_mcrypt/module.js" />
         <option value="$PROJECT_DIR$/modules/js_mcrypt/js/mcrypt.js" />
         <option value="$PROJECT_DIR$/js/utils.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/modules/multi_crypting/js/class.mc.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/modules/windowtt/css/style.css" />
+        <option value="$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/modules/core_100/js/core.class.js" />
       </list>
     </option>
   </component>
@@ -895,6 +139,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -913,9 +158,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasktrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasktrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1022,9 +280,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32733223" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24571854" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18008785" sideWeight="0.6710311" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18008785" sideWeight="0.67266774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1033,7 +292,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1048,45 +306,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/core_100/js/core.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="45" selection-start="7946" selection-end="7946" vertical-scroll-proportion="0.0" vertical-offset="4046" max-vertical-offset="5576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multi_crypting/js/class.mc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="21" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="867">
-          <folding>
-            <element signature="e#0#190#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/js_base64/js/class.base64.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="38" selection-start="2342" selection-end="2342" vertical-scroll-proportion="2.4991453" vertical-offset="0" max-vertical-offset="2601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="412" selection-end="412" vertical-scroll-proportion="0.4940171" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1207" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="732" column="10" selection-start="10896" selection-end="10896" vertical-scroll-proportion="0.36068377" vertical-offset="12233" max-vertical-offset="15623">
-          <folding />
-        </state>
+        <state line="732" column="10" selection-start="10896" selection-end="10896" vertical-scroll-proportion="0.36068377" vertical-offset="12233" max-vertical-offset="15623" />
       </provider>
     </entry>
     <entry file="file://C:/webserver/home/js-mcrypt/www/index.php">
@@ -1097,13 +324,6 @@
     <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/js/rijndael.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="111" column="14" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.18803419" vertical-offset="1488" max-vertical-offset="3604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="881" selection-end="881" vertical-scroll-proportion="-0.0" vertical-offset="442" max-vertical-offset="935">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/module.js">
@@ -1123,32 +343,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="33" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.7094017" vertical-offset="945" max-vertical-offset="1530">
+        <state line="80" column="33" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.7094017" vertical-offset="945" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/windowtt/js/window.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.17435898" vertical-offset="102" max-vertical-offset="3638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/multi_crypting/js/class.mc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="35" selection-start="1384" selection-end="1384" vertical-scroll-proportion="1.365812" vertical-offset="0" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="19" selection-start="2286" selection-end="2286" vertical-scroll-proportion="2.876923" vertical-offset="0" max-vertical-offset="1819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/windowtt/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="13" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.34871796" vertical-offset="2193" max-vertical-offset="3009" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.indexeddb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="18" selection-start="1454" selection-end="1454" vertical-scroll-proportion="-12.856644" vertical-offset="8255" max-vertical-offset="8891">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="57" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="46" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="10421">
+        <state line="640" column="27" selection-start="25217" selection-end="25217" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2295">
           <folding>
-            <marker date="1390073502968" expanded="false" signature="14041:14064" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multi_crypting/js/class.mc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="35" selection-start="1384" selection-end="1384" vertical-scroll-proportion="1.1042736" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <element signature="e#0#190#0" expanded="false" />
+            <element signature="e#272#2440#0" expanded="false" />
+            <element signature="e#2481#7403#0" expanded="false" />
+            <element signature="e#7437#14382#0" expanded="false" />
+            <element signature="e#14403#15887#0" expanded="false" />
+            <element signature="e#15972#22466#0" expanded="false" />
+            <marker date="1391105519917" expanded="false" signature="14770:14793" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core_100/js/core.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="47" selection-start="7948" selection-end="7948" vertical-scroll-proportion="0.61025643" vertical-offset="4046" max-vertical-offset="5576">
+        <state line="389" column="51" selection-start="12714" selection-end="12714" vertical-scroll-proportion="0.0" vertical-offset="6156" max-vertical-offset="7072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="180" selection-end="180" vertical-scroll-proportion="0.15205725" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>

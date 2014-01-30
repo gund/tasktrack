@@ -91,3 +91,12 @@ body {
 #menu>div.main {
 	font-weight: bold;
 }
+
+div.settings-input {
+    width: 350px;
+}
+
+input#settings-login, input#settings-pass {
+    display: inline;
+    width: 100%;
+}

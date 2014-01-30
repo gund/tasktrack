@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+*,html,body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ccc;
+}
+
+h1 {
+	margin: 20px 30px;
+}
+
+.form {
+	padding: 0 0 0 50px;
+}
+
+.form label {
+	display: block;
+	margin-bottom: 10px;
+	text-shadow: 0 0 10px #000;
+}
+
+.form label input {
+	margin-left: 10px;
+}
+
+.form input[type=submit] {
+	width: 100px;
+	height: 25px;
+}
+
+.error {
+	color: #ff0000;
+	padding: 0 0 20px 30px;
+}

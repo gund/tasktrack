@@ -20,10 +20,11 @@ var sWindow = {
             title: "Settings",
             modal: true,
             height: 205,
+            max_height: 300,
             html: 'To Sync your tasks you need to register on <a href="//ttrack.tk/register" target="_blank">TaskTrack</a><hr>' +
-                '<div id="settings-error"></div><br>' +
+                '<div id="settings-error"></div><div class="settings-input">' +
                 'Login: <input type="text" id="settings-login"><br>' +
-                'Password: <input type="password" id="settings-pass"><br>' +
+                'Password: <input type="password" id="settings-pass"></div>' +
                 '<input type="button" class="button primary" value="Save" id="settings-ok"><br><br><hr>' +
                 '<h5>You can stay logged out but you may not sync your Tasks and Projects.</h5>'
         });
@@ -31,21 +32,36 @@ var sWindow = {
         $('#settings-ok').click(this.save);
     },
     save: function () {
+        var me = this;
+        var dfd = $.Deferred();
         var login = $('#settings-login').val();
-        var pass = $('#settings-pass').val();
-        Utils.log(MultiCrypting.encode(pass));
-        if (login.length > 3 && pass.length > 3) {
-            Utils.log("Saving settings...");
-            TT.db.objectStore("settings").put({
-                "login": login,
-                "password": pass,
-                "up2date": TT.up2date
-            }, 1).then(function () {
-                    TT.checkLogin();
-                    sWindow.wnd.close();
-                    Utils.log("Settings saved!");
-                }, function () {
-                    Utils.log("Settings NOT saved!");
+        if (login.length > 3) {
+            var pass = $('#settings-pass').val();
+            if (pass != '') {
+                var pass = MultiCrypting.encode(pass);
+                dfd.resolve(pass);
+            } else {
+                TT.db.objectStore("settings").get(1).done(function (item) {
+                    var pass = item.password;
+                    dfd.resolve(pass);
+                }).fail(dfd.reject);
+            }
+            dfd.done(function (pass) {
+                Utils.log("Saving settings...", pass);
+                TT.db.objectStore("settings").put({
+                    "login": login,
+                    "password": pass,
+                    "up2date": TT.up2date
+                }, 1).then(function () {
+                        TT.checkLogin();
+                        sWindow.wnd.close();
+                        $('#settings-pass').val('');
+                        Utils.log("Settings saved!");
+                    }, function () {
+                        Utils.log("Settings NOT saved!");
+                    });
+            }).fail(function () {
+                    throw new Error('Failed to get password from inDB!');
                 });
         }
     }
@@ -340,12 +356,39 @@ var errorWindow = {
             closeAble: false
         });
     },
-    show: function (text) {
+    show: function (text, error) {
+        if (error === undefined) error = true;
         this.wnd.setHtml('<div align="center" style="font: 20px normal Arial">' + text + '</div>');
+        if (error) this.wnd.setTitle('Error!');
+        else this.wnd.setTitle('Done!');
         this.wnd.show();
         setTimeout(function () {
             errorWindow.wnd.close();
         }, 2000);
+    },
+    showBefore: function (percent, min, speed) {
+        if (min === undefined || min < 0) min = 0;
+        if (speed === undefined) speed = 7;
+        var html = '<progress id="e_progress" min="0" max="100" value="' + min + '" style="width:100%"></progress>';
+        this.wnd.setTitle('Syncing...');
+        this.wnd.setHtml(html);
+        this.wnd.show();
+        this.animProgress(percent, min, speed);
+    },
+    animProgress: function (percent, min, speed) {
+        var i = min;
+        try {
+        var eProgress = $('#e_progress');
+        (function () {
+            i += Math.ceil(Math.random()*speed);
+            eProgress.prop('value', i);
+            if (i < percent) {
+                setTimeout(arguments.callee, 75);
+            }
+        })();
+        } catch (e) {
+            Utils.log("Error rendering progress bar:", e);
+        }
     }
 };
 
@@ -391,13 +434,6 @@ var TaskList = {
         }).fail(function () {
                 throw new Error("Failed to delete Task!");
             });
-        /*TT.db.objectStore(TT_TASKS[1]).delete(taskId).done(function () {
-         TT.clearTableListCache(TT_TASKS).done(self.render).fail(function () {
-         throw new Error("Failed to update Task List!");
-         });
-         }).fail(function () {
-         throw new Error("Failed to remove Task from inDB!");
-         });*/
     },
     changeState: function (state, taskId) {
         if (typeof  state != 'boolean') {
@@ -567,6 +603,8 @@ function startUpdate() {
             }
             TaskList.updateTime(item.id, TT.normalizeTime(item.time, true));
             TT.db.objectStore(TT_TASKS[1]).put(item);
+            TT.up2date = false;
+            TT.changeSyncState(false);
         }
     }
 }
@@ -600,9 +638,5 @@ function toggleTasks() {
 }
 
 function sync() {
-    TT.syncServer2Client().done(function () {
-        Utils.log("AZAZAZAZa");
-    }).fail(function (status, textStatus) {
-            Utils.log("Failed XHR!", status, textStatus);
-        });
+    TT.syncClient2Server();
 }

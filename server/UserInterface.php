@@ -16,9 +16,10 @@ interface UserInterface {
 	 * Registrate user in system
 	 * @param string $login - User login
 	 * @param string $password - User password
+	 * @param string $email - User Email
 	 * @return bool - registrated successful or not
 	 */
-	function register($login, $password);
+	function register($login, $password, $email);
 	/**
 	 * Check if user currently logged in
 	 * @return bool - logged in or not
@@ -35,13 +36,6 @@ interface UserInterface {
 	 * @return bool - saved user data or not
 	 */
 	function saveUserData($data);
-	/**
-	 * Compare new user data with current data in DB<br>
-	 * Result of this method can be used for saving data via UserInterface::saveUserData() method
-	 * @param array $newData - new user data
-	 * @return array - merged data (current&new) with lables (insert|delete|update)
-	 */
-	function compareUserData($newData);
 }
 
 ?>

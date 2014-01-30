@@ -41,6 +41,10 @@ class DataBase implements \DataBaseInterface {
 		return false;
 	}
 	
+	function __destruct() {
+		self::$db->close();
+	}
+	
 	/* (non-PHPdoc)
 	 * @see DataBaseInterface::connect()
 	 */

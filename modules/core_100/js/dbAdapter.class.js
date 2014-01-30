@@ -52,6 +52,14 @@ function DB_Adapter(settings) {
     return dfd.promise();
 }
 
+DB_Adapter.prototype.flushTaskAndProj = function () {
+    var me = this, dfd = $.Deferred();
+    var step1 = this.db.objectStore(TT_PROJECTS[1]).clear();
+    var step2 = this.db.objectStore(TT_TASKS[1]).clear();
+    $.when(step1,step2).done(dfd.resolve).fail(dfd.reject);
+    return dfd.promise();
+};
+
 // Database Constants
 const DB_DELETED = 0;
 const DB_NORMAL = 1;
