@@ -10,5 +10,9 @@
 
 const MODULE_BASE64 = 'js_base64';
 
-// Include JS
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_BASE64]+'/js/class.base64.js"></script>');
+if (APP_DEBUG) {
+    // Include JS
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_BASE64] + '/js/class.base64.js"></script>');
+} else {
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_BASE64] + '/js/class.base64.min.js"></script>');
+}

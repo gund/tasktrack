@@ -55,7 +55,7 @@ var sWindow = {
                 }, 1).then(function () {
                         TT.checkLogin();
                         sWindow.wnd.close();
-                        $('#settings-pass').val('');
+                        $('#settings-pass').val('').prop('placeholder', "Type to change password or leave empty...");
                         Utils.log("Settings saved!");
                     }, function () {
                         Utils.log("Settings NOT saved!");
@@ -551,6 +551,7 @@ function hideLoadImg() {
         $(this).css('display', 'none');
     });
     setInterval(startUpdate, 1000);
+    setInterval(sync, 1000*60*5);
 }
 
 function onLoadApp() {
@@ -602,6 +603,7 @@ function startUpdate() {
                 }
             }
             TaskList.updateTime(item.id, TT.normalizeTime(item.time, true));
+            item.status = DB_MODIFIED;
             TT.db.objectStore(TT_TASKS[1]).put(item);
             TT.up2date = false;
             TT.changeSyncState(false);

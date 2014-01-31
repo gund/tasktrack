@@ -94,8 +94,8 @@ class User implements \UserInterface {
 			return false;
 		}
 		$ret = false;
-		$mc = new MultiCrypting();
-		$password = $mc->encode($password, self::SECURITY_LEVEL);
+		$mc = new MultiCrypting ();
+		$password = $mc->encode ( $password, self::SECURITY_LEVEL );
 		if ($stmt = DataBase::$db->prepare ( "INSERT INTO users VALUES (NULL, ?, ?, ?, NULL)" )) {
 			$stmt->bind_param ( 'sss', $login, $password, $email );
 			$stmt->execute ();
@@ -247,25 +247,48 @@ class User implements \UserInterface {
 		if ($result->num_rows != 0) {
 			$arInfo = $result->fetch_array ( MYSQLI_ASSOC );
 			$dataId = $arInfo ["id"];
+			$oldData = unserialize ( $arInfo ["data"] );
 		}
-		// Modify data to normal state
-		foreach ( $data as &$arData ) {
-			if ($arData ["status"] == 0) {
-				unset($data[$arData["id"]]);
-			} else {
-				$arData ["status"] = 1;
-			}
-		}
+		
 		// Save Data
 		$stmt->reset ();
 		if ($dataId === null) {
+			// Modify data to normal state
+			foreach ( $data as &$arData ) {
+				if ($arData ["status"] == 0) {
+					unset ( $data [$arData ["id"]] );
+				} else {
+					$arData ["status"] = 1;
+				}
+			}
 			// Insert
 			$stmt->prepare ( $insertQuery );
 			$stmt->bind_param ( 'is', $this->id, serialize ( $data ) );
 		} else {
+			if (empty ( $oldData )) {
+				// Modify data to normal state
+				foreach ( $data as &$arData ) {
+					if ($arData ["status"] == 0) {
+						unset ( $data [$arData ["id"]] );
+					} else {
+						$arData ["status"] = 1;
+					}
+				}
+				$oldData = $data;
+			} else {
+				// Merge data
+				foreach ( $data as $arData ) {
+					if ($arData ["status"] == 0 && isset ( $oldData [$arData ["id"]] )) {
+						unset ( $oldData [$arData ["id"]] );
+					} elseif ($arData ["status"] == 2 || $arData ["status"] == 3) {
+						$arData ["status"] = 1;
+						$oldData [$arData ["id"]] = $arData;
+					}
+				}
+			}
 			// Update
 			$stmt->prepare ( $updateQuery );
-			$stmt->bind_param ( 'sii', serialize ( $data ), $dataId, $this->id );
+			$stmt->bind_param ( 'sii', serialize ( $oldData ), $dataId, $this->id );
 		}
 		$stmt->execute ();
 		$ret = (! DataBase::$db->errno) ? true : false;

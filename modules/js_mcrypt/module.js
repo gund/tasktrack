@@ -10,8 +10,13 @@
 
 const MODULE_MCRYPT = 'js_mcrypt';
 
-// Include JS
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_MCRYPT]+'/js/utf8.js"></script>');
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_MCRYPT]+'/js/rijndael.js"></script>');
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_MCRYPT]+'/js/Serpent.js"></script>');
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_MCRYPT]+'/js/mcrypt.js"></script>');
+if (APP_DEBUG) {
+    // Include JS
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_MCRYPT] + '/js/utf8.js"></script>');
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_MCRYPT] + '/js/rijndael.js"></script>');
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_MCRYPT] + '/js/mcrypt.js"></script>');
+} else {
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_MCRYPT] + '/js/utf8.min.js"></script>');
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_MCRYPT] + '/js/rijndael.min.js"></script>');
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_MCRYPT] + '/js/mcrypt.min.js"></script>');
+}

@@ -10,5 +10,9 @@
 
 const MULTI_CRYPTING = 'multi_crypting';
 
-// Include JS
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MULTI_CRYPTING]+'/js/class.mc.js"></script>');
+if (APP_DEBUG) {
+    // Include JS
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MULTI_CRYPTING] + '/js/class.mc.js"></script>');
+} else {
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MULTI_CRYPTING] + '/js/class.mc.min.js"></script>');
+}

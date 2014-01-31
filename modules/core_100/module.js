@@ -11,6 +11,11 @@
 // Module Name
 const MODULE_CORE = 'core_100';
 
-// Include JS
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_CORE]+'/js/core.class.js"></script>');
-document.write('<script type="text/javascript" src="'+MODULE_PATH[MODULE_CORE]+'/js/dbAdapter.class.js"></script>');
+if (APP_DEBUG) {
+    // Include JS
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_CORE] + '/js/core.class.js"></script>');
+    document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_CORE] + '/js/dbAdapter.class.js"></script>');
+} else {
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_CORE] + '/js/core.class.min.js"></script>');
+    //document.write('<script type="text/javascript" src="' + MODULE_PATH[MODULE_CORE] + '/js/dbAdapter.class.min.js"></script>');
+}
