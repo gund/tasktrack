@@ -1,5 +1,5 @@
 <?php
-require_once '/server/User.php';
+require_once 'server/User.php';
 
 $error = "";
 $ok = 0;
@@ -15,20 +15,17 @@ if (isset ( $_POST ['ok'] )) {
 		try {
 			DataBase::connect ();
 			$db = DataBase::$db;
-			$sql = "SELECT email FROM users WHERE login=? LIMIT 1";
+			$sql = "SELECT email, password FROM users WHERE login=? LIMIT 1";
 			$stmt = $db->prepare($sql);
 			if (!$stmt) {
 				throw new RuntimeException("Failed to init MySql Statment!");
 			}
 			$stmt->bind_param('s', $login);
 			$stmt->execute();
-			$result = $stmt->get_result ();
-			if ($result->num_rows == 0) {
-				$error = "User with this login does not exist.";
-			} else {
-				$userInfo = $result->fetch_array ( MYSQLI_ASSOC );
-				$pass = $userInfo["password"];
-				$email = $userInfo["email"];
+			$email = null;
+			$pass = null;
+			$stmt->bind_result($email, $pass);
+			if ($stmt->fetch()) {
 				$mc = new MultiCrypting();
 				$pass = $mc->decode($pass);
 				$loginToEmail = ucfirst($login);
@@ -57,6 +54,8 @@ EOT;
 					$ok = 1;
 				else 
 					$error = "Failed to send email to $email";
+			} else {
+				$error = "User with this login does not exist.";
 			}
 		} catch ( Exception $e ) {
 			exit ( $e->getMessage () );

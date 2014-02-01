@@ -1,5 +1,5 @@
 <?php
-require_once '/server/User.php';
+require_once 'server/User.php';
 
 $error = "";
 $ok = 0;

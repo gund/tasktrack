@@ -58,27 +58,29 @@ class User implements \UserInterface {
 			return false;
 		}
 		$ret = false;
-		if ($stmt = DataBase::$db->prepare ( "SELECT * FROM users WHERE login=? LIMIT 1" )) {
+		if ($stmt = DataBase::$db->prepare ( "SELECT id,login,password FROM users WHERE login=? LIMIT 1" )) {
 			$stmt->bind_param ( 's', $login );
 			$stmt->execute ();
-			$result = $stmt->get_result ();
-			if ($result->num_rows == 0) {
-				$this->state = self::U_LOG_OUT;
-				$ret = false;
-			} else {
-				$userInfo = $result->fetch_array ( MYSQLI_ASSOC );
+			$uId = null;
+			$uLogin = null;
+			$uPass = null;
+			$stmt->bind_result ( $uId, $uLogin, $uPass );
+			if ($stmt->fetch ()) {
 				$mc = new MultiCrypting ();
-				$truePass = $mc->decode ( $userInfo ["password"] );
+				$truePass = $mc->decode ( $uPass );
 				if ($password === $truePass) {
-					$this->login = $userInfo ["login"];
-					$this->password = $userInfo ["password"];
-					$this->id = $userInfo ["id"];
+					$this->login = $uLogin;
+					$this->password = $uPass;
+					$this->id = $uId;
 					$this->state = self::U_LOG_IN;
 					$ret = true;
 				} else {
 					$this->state = self::U_LOG_OUT;
 					$ret = false;
 				}
+			} else {
+				$this->state = self::U_LOG_OUT;
+				$ret = false;
 			}
 			$stmt->close ();
 		} else
@@ -183,10 +185,10 @@ class User implements \UserInterface {
 		if ($stmt = DataBase::$db->prepare ( "SELECT data FROM projects WHERE user_id=? LIMIT 1" )) {
 			$stmt->bind_param ( "i", $this->id );
 			$stmt->execute ();
-			$result = $stmt->get_result ();
-			if ($result->num_rows != 0) {
-				$arProj = $result->fetch_array ( MYSQLI_ASSOC );
-				$this->projects = unserialize ( $arProj ["data"] );
+			$data = null;
+			$stmt->bind_result ( $data );
+			if ($stmt->fetch ()) {
+				$this->projects = unserialize ( $data );
 			}
 			$stmt->close ();
 		} else
@@ -205,10 +207,10 @@ class User implements \UserInterface {
 		if ($stmt = DataBase::$db->prepare ( "SELECT data FROM tasks WHERE user_id=? LIMIT 1" )) {
 			$stmt->bind_param ( "i", $this->id );
 			$stmt->execute ();
-			$result = $stmt->get_result ();
-			if ($result->num_rows != 0) {
-				$arTasks = $result->fetch_array ( MYSQLI_ASSOC );
-				$this->tasks = unserialize ( $arTasks ["data"] );
+			$data = null;
+			$stmt->bind_result ( $data );
+			if ($stmt->fetch ()) {
+				$this->tasks = unserialize ( $data );
 			}
 			$stmt->close ();
 		} else
@@ -231,7 +233,7 @@ class User implements \UserInterface {
 			return false;
 		}
 		$what = ($what == 'p') ? 'projects' : 'tasks';
-		$selectQuery = "SELECT * FROM $what WHERE user_id=?";
+		$selectQuery = "SELECT id, data FROM $what WHERE user_id=?";
 		$deleteQuery = "DELETE FROM $what WHERE id=? AND user_id=?";
 		$insertQuery = "INSERT INTO $what VALUES (NULL, ?, ?, NULL)";
 		$updateQuery = "UPDATE $what SET data=? WHERE id=? AND user_id=?";
@@ -243,11 +245,13 @@ class User implements \UserInterface {
 		}
 		$stmt->bind_param ( 'i', $this->id );
 		$stmt->execute ();
-		$result = $stmt->get_result ();
-		if ($result->num_rows != 0) {
-			$arInfo = $result->fetch_array ( MYSQLI_ASSOC );
-			$dataId = $arInfo ["id"];
-			$oldData = unserialize ( $arInfo ["data"] );
+		$dId = null;
+		$dData = null;
+		$stmt->bind_result($dId, $dData);
+		
+		if ($stmt->fetch()) {
+			$dataId = $dId;
+			$oldData = unserialize ( $dData );
 		}
 		
 		// Save Data
