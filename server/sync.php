@@ -1,8 +1,5 @@
 <?php
-require_once 'class.MC.php';
-require_once 'DataBase.php';
-require_once 'User.php';
-require_once 'misc.php';
+require_once 'header.php';
 
 $login = (isset ( $_POST ["login"] )) ? $_POST ["login"] : exitWithError ( E_MISS_LOGIN_PASS );
 $password = (isset ( $_POST ["password"] )) ? $_POST ["password"] : exitWithError ( E_MISS_LOGIN_PASS );

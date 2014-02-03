@@ -1,5 +1,4 @@
 <?php
-require_once 'class.MC.php';
 
 const E_INV_SYNC_METHOD = 100;
 const E_MISS_DATA = 101;
@@ -51,4 +50,13 @@ function responseOk($msg = NULL, $data = NULL, $method = NULL) {
 function preparePassword($pass) {
 	$mc = new MultiCrypting();
 	return $mc->decodeInput($pass);
+}
+function int64ToInt32($int64) {
+	$int32 = $int64;
+	if($int64 < 0) {
+		$int32 &= 0x00000000ffffffff;
+	} elseif ($int64 > 0) {
+		$int32 |= 0xffffffff00000000;
+	}
+	return $int32;
 }

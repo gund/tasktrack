@@ -1,5 +1,5 @@
 <?php
-require_once 'server/User.php';
+require_once 'server/header.php';
 
 $error = "";
 $ok = 0;
@@ -13,7 +13,7 @@ if (isset ( $_POST ['ok'] )) {
 		$error = "Please, fill login field.";
 	} else {
 		try {
-			DataBase::connect ();
+			DataBase::connect();
 			$db = DataBase::$db;
 			$sql = "SELECT email, password FROM users WHERE login=? LIMIT 1";
 			$stmt = $db->prepare($sql);

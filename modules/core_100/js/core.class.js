@@ -73,6 +73,7 @@ TaskTrackCore.prototype.initSettings = function () {
         url: '/server/sync.php',
         type: 'POST',
         dataType: 'JSON',
+        cache: false,
         async: true,
         success: function (data, textStatus, XHR) {
             me.handleSuccess(data, textStatus, XHR);

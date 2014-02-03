@@ -132,7 +132,10 @@ var projWindow = {
             // Save item info
             TT.db.objectStore(TT_PROJECTS[1]).put(newItem).then(function () {
                 tdName.innerHTML = nameTextBox.value;
-                TT.clearTableListCache(TT_PROJECTS).done(projWindow.render);
+                $.when(TT.clearTableListCache(TT_PROJECTS), TT.clearTableListCache(TT_TASKS)).done(function () {
+                    projWindow.render();
+                    TaskList.render();
+                });
                 Utils.log("Item saved!");
             }, function () {
                 Utils.log("Item NOT saved!");
@@ -378,14 +381,14 @@ var errorWindow = {
     animProgress: function (percent, min, speed) {
         var i = min;
         try {
-        var eProgress = $('#e_progress');
-        (function () {
-            i += Math.ceil(Math.random()*speed);
-            eProgress.prop('value', i);
-            if (i < percent) {
-                setTimeout(arguments.callee, 75);
-            }
-        })();
+            var eProgress = $('#e_progress');
+            (function () {
+                i += Math.ceil(Math.random() * speed);
+                eProgress.prop('value', i);
+                if (i < percent) {
+                    setTimeout(arguments.callee, 75);
+                }
+            })();
         } catch (e) {
             Utils.log("Error rendering progress bar:", e);
         }
@@ -551,7 +554,7 @@ function hideLoadImg() {
         $(this).css('display', 'none');
     });
     setInterval(startUpdate, 1000);
-    setInterval(sync, 1000*60*5);
+    setInterval(sync, 1000 * 60 * 5);
 }
 
 function onLoadApp() {

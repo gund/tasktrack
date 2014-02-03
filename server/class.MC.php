@@ -93,7 +93,7 @@ class MultiCrypting {
 			// Get High byte
 			$keyH .= substr ( strval ( (int)$d [12 - $i] ^ (int)$d [7 - $i] ), 0, 1 );
 		}
-		$lol = abs($time+0);
+		$lol = int64ToInt32($time+0);
 		$tmp = strval ( abs ( $lol >> 3 ) );
 		$key = $tmp . $keyH;
 		if ($size == 32) {

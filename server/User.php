@@ -1,7 +1,5 @@
 <?php
 require_once 'UserInterface.php';
-require_once 'DataBase.php';
-require_once 'class.MC.php';
 
 /**
  * User Class
@@ -82,6 +80,7 @@ class User implements \UserInterface {
 				$this->state = self::U_LOG_OUT;
 				$ret = false;
 			}
+			$stmt->free_result ();
 			$stmt->close ();
 		} else
 			throw new RuntimeException ( $stmt->error, 0 );
@@ -185,11 +184,15 @@ class User implements \UserInterface {
 		if ($stmt = DataBase::$db->prepare ( "SELECT data FROM projects WHERE user_id=? LIMIT 1" )) {
 			$stmt->bind_param ( "i", $this->id );
 			$stmt->execute ();
-			$data = null;
-			$stmt->bind_result ( $data );
-			if ($stmt->fetch ()) {
-				$this->projects = unserialize ( $data );
+			$stmt->store_result();
+			if ($stmt->num_rows > 0) {
+				$data = null;
+				$stmt->bind_result ( $data );
+				if ($stmt->fetch ()) {
+					$this->projects = unserialize ( $data );
+				}
 			}
+			$stmt->free_result ();
 			$stmt->close ();
 		} else
 			throw new RuntimeException ( $stmt->error );
@@ -207,11 +210,15 @@ class User implements \UserInterface {
 		if ($stmt = DataBase::$db->prepare ( "SELECT data FROM tasks WHERE user_id=? LIMIT 1" )) {
 			$stmt->bind_param ( "i", $this->id );
 			$stmt->execute ();
-			$data = null;
-			$stmt->bind_result ( $data );
-			if ($stmt->fetch ()) {
-				$this->tasks = unserialize ( $data );
+			$stmt->store_result();
+			if ($stmt->num_rows > 0) {
+				$data = null;
+				$stmt->bind_result ( $data );
+				if ($stmt->fetch ()) {
+					$this->tasks = unserialize ( $data );
+				}
 			}
+			$stmt->free_result ();
 			$stmt->close ();
 		} else
 			throw new RuntimeException ( $stmt->error );
@@ -247,14 +254,18 @@ class User implements \UserInterface {
 		$stmt->execute ();
 		$dId = null;
 		$dData = null;
-		$stmt->bind_result($dId, $dData);
-		
-		if ($stmt->fetch()) {
-			$dataId = $dId;
-			$oldData = unserialize ( $dData );
+
+		$stmt->store_result();
+		if ($stmt->num_rows > 0) {
+			$stmt->bind_result ( $dId, $dData );
+			if ($stmt->fetch ()) {
+				$dataId = $dId;
+				$oldData = unserialize ( $dData );
+			}
 		}
 		
 		// Save Data
+		$stmt->free_result ();
 		$stmt->reset ();
 		if ($dataId === null) {
 			// Modify data to normal state
@@ -267,7 +278,8 @@ class User implements \UserInterface {
 			}
 			// Insert
 			$stmt->prepare ( $insertQuery );
-			$stmt->bind_param ( 'is', $this->id, serialize ( $data ) );
+			$sData = serialize ( $data );
+			$stmt->bind_param ( 'is', $this->id, $sData );
 		} else {
 			if (empty ( $oldData )) {
 				// Modify data to normal state
@@ -296,6 +308,7 @@ class User implements \UserInterface {
 		}
 		$stmt->execute ();
 		$ret = (! DataBase::$db->errno) ? true : false;
+		$stmt->free_result ();
 		$stmt->close ();
 		return $ret;
 	}
