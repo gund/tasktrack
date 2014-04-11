@@ -13,7 +13,7 @@ const APP_MODULES = 'modules';
 var MODULE_PATH = new Array();
 
 // Modules
-var appModules = ['windowtt', 'js_base64', 'multi_crypting', 'js_mcrypt', 'core_100', 'gh_buttons'];
+var appModules = ['windowtt', 'js_base64', 'multi_crypting', 'js_mcrypt', 'core', 'gh_buttons'];
 
 //Include Modules
 Utils.includeModules(appModules);

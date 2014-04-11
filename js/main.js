@@ -553,8 +553,8 @@ function hideLoadImg() {
     }, 500, function () {
         $(this).css('display', 'none');
     });
-    setInterval(startUpdate, 1000);
-    setInterval(sync, 1000 * 60 * 5);
+    setInterval(startUpdate, 1000); // Updating loop every 1 second
+    setInterval(sync, 1000 * 60 * 5); // Auto sync every 5 minutes
 }
 
 function onLoadApp() {
@@ -619,6 +619,7 @@ function startTasks() {
         var taskId = parseInt(this.getAttribute('id').match(/([0-9]+)/)[0]);
         TaskList.start(taskId);
     });
+    $('#task-control-checkbox').prop('checked', false);
 }
 
 function stopTasks() {
@@ -626,6 +627,7 @@ function stopTasks() {
         var taskId = parseInt(this.getAttribute('id').match(/([0-9]+)/)[0]);
         TaskList.stop(taskId);
     });
+    $('#task-control-checkbox').prop('checked', false);
 }
 
 function deleteTasks() {
@@ -633,6 +635,7 @@ function deleteTasks() {
         var taskId = parseInt(this.getAttribute('id').match(/([0-9]+)/)[0]);
         TaskList.remove(taskId);
     });
+    $('#task-control-checkbox').prop('checked', false);
 }
 
 function toggleTasks() {

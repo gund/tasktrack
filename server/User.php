@@ -39,10 +39,8 @@ class User implements \UserInterface {
 	private $state = self::U_LOG_OUT;
 	
 	/**
-	 * Login first, if not - registrate user
+	 * Login first, if not - register user
 	 *
-	 * @param string $login        	
-	 * @param string $password        	
 	 */
 	function __construct() {
 		DataBase::connect ();

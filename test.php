@@ -1,14 +1,15 @@
 <?php
-$sourceInt = (int) 1391343920825 & 0xffffffff;
-$sourceInt = int64ToInt32($sourceInt);
+$sourceInt = 1397236742173;
+$sourceInt32 = int64ToInt32($sourceInt);
 $resultInt = $sourceInt >> 3;
-$resultInt32 = $resultInt & 0xffffffff;
+$resultInt32 = $sourceInt32 >> 3;
 
 var_dump($sourceInt);
-echo "TEST:<br>";
+echo "<br>TEST:<br>";
 echo "Source Int: " . $sourceInt;
 echo "<br>x64: " . $resultInt;
 echo "<br>x32: " . $resultInt32;
+echo "<br>Need: 171546371<br>";
 
 $binSource = unpack ( "C*", pack ( "L", $sourceInt ) );
 $binInt = unpack ( "C*", pack ( "L", $resultInt ) );
@@ -24,9 +25,9 @@ var_dump ( $binInt32 );
 // Functions
 function int64ToInt32($int64) {
 	$int32 = $int64;
-	if($int64 < 0) {
+	if($int64 > 0) {
 		$int32 &= 0x00000000ffffffff;
-	} elseif ($int64 > 0) {
+	} elseif ($int64 < 0) {
 		$int32 |= 0xffffffff00000000;
 	}
 	return $int32;

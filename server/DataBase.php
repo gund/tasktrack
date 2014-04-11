@@ -18,7 +18,7 @@ class DataBase implements \DataBaseInterface {
 	/**
 	 * @var string
 	 */
-	static private $pass = '';
+	static private $pass = 'root';
 	/**
 	 * @var string
 	 */

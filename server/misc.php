@@ -52,11 +52,11 @@ function preparePassword($pass) {
 	return $mc->decodeInput($pass);
 }
 function int64ToInt32($int64) {
-	$int32 = $int64;
-	if($int64 < 0) {
-		$int32 &= 0x00000000ffffffff;
-	} elseif ($int64 > 0) {
-		$int32 |= 0xffffffff00000000;
-	}
-	return $int32;
+    $int32 = $int64;
+    if($int64 > 0) {
+        $int32 &= 0x00000000ffffffff;
+    } elseif ($int64 < 0) {
+        $int32 |= 0xffffffff00000000;
+    }
+    return $int32;
 }

@@ -22,8 +22,7 @@ var Utils = {
         } while (random == 0);
         var timeStamp = new Date().getTime();
         var timeDelimiter = new Date().getMilliseconds();
-        var id = Math.abs(timeStamp ^ (timeStamp * timeDelimiter)) * random;
-        return id;
+        return Math.abs(timeStamp ^ (timeStamp * timeDelimiter)) * random;
     },
     includeModules: function (modules) {
         for (var i in modules) {
