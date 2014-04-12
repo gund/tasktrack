@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21f77dc-c782-401e-9503-31076e069f97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/core_100/js/core.class.js" afterPath="$PROJECT_DIR$/modules/core/js/core.class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/core_100/js/dbAdapter.class.js" afterPath="$PROJECT_DIR$/modules/core/js/dbAdapter.class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/core_100/module.js" afterPath="$PROJECT_DIR$/modules/core/module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/DataBase.php" afterPath="$PROJECT_DIR$/server/DataBase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/User.php" afterPath="$PROJECT_DIR$/server/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/misc.php" afterPath="$PROJECT_DIR$/server/misc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/modules.js" afterPath="$PROJECT_DIR$/modules/modules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tasktrack.iml" afterPath="$PROJECT_DIR$/.idea/tasktrack.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/utils.js" afterPath="$PROJECT_DIR$/js/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasktrack.zip" afterPath="$PROJECT_DIR$/tasktrack.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_core.js" afterPath="$PROJECT_DIR$/js/prod/compiled_core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_main.js" afterPath="$PROJECT_DIR$/js/prod/compiled_main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_mcrypt.js" afterPath="$PROJECT_DIR$/js/prod/compiled_mcrypt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_utils.js" afterPath="$PROJECT_DIR$/js/prod/compiled_utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_windowtt.js" afterPath="$PROJECT_DIR$/js/prod/compiled_windowtt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/windowtt/css/style.css" afterPath="$PROJECT_DIR$/modules/windowtt/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasktrack.iws" />
@@ -82,6 +76,10 @@
         <option value="$PROJECT_DIR$/server/class.MC.php" />
         <option value="$PROJECT_DIR$/server/sync.php" />
         <option value="$PROJECT_DIR$/modules/multi_crypting/js/class.mc.js" />
+        <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/core.class.js" />
+        <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/dbAdapter.class.js" />
+        <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/class.mc.js" />
+        <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/windowtt/window.class.js" />
       </list>
     </option>
   </component>
@@ -148,24 +146,14 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="C:/webserver/home/js-mcrypt/www/index.php" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/windowtt/window.class.js" />
     <property name="FullScreen" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -223,10 +211,8 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24571854" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1918429" sideWeight="0.67266774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19180088" sideWeight="0.67266774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -234,14 +220,16 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -268,19 +256,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10621">
-          <folding>
-            <element signature="e#272#2505#0" expanded="false" />
-            <element signature="e#2546#7604#0" expanded="false" />
-            <element signature="e#2586#3391#0" expanded="false" />
-            <element signature="e#3466#3793#0" expanded="false" />
-            <element signature="e#3833#4580#0" expanded="false" />
-            <element signature="e#7638#14583#0" expanded="false" />
-            <element signature="e#14604#16122#0" expanded="false" />
-            <element signature="e#16207#22701#0" expanded="false" />
-            <marker date="1397233548000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="10" column="14" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10621" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
@@ -299,19 +275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="38" selection-start="5527" selection-end="5527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8385">
-          <folding>
-            <element signature="e#272#2505#0" expanded="false" />
-            <element signature="e#2546#7604#0" expanded="false" />
-            <element signature="e#2586#3391#0" expanded="false" />
-            <element signature="e#3466#3793#0" expanded="false" />
-            <element signature="e#3833#4580#0" expanded="false" />
-            <element signature="e#7638#14583#0" expanded="false" />
-            <element signature="e#14604#16122#0" expanded="false" />
-            <element signature="e#16207#22701#0" expanded="false" />
-            <marker date="1397233548000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="136" column="38" selection-start="5527" selection-end="5527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
@@ -363,134 +327,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/DataBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="261" selection-end="261" vertical-scroll-proportion="0.37808642" vertical-offset="10" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="17" column="7" selection-start="261" selection-end="261" vertical-scroll-proportion="0.37808642" vertical-offset="10" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="113" selection-end="113" vertical-scroll-proportion="0.06696428" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
+        <state line="3" column="46" selection-start="113" selection-end="113" vertical-scroll-proportion="0.06696428" vertical-offset="0" max-vertical-offset="672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forgot_pass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
-          <folding>
-            <marker date="1397021805000" expanded="true" signature="-1:-1" placeholder="SELECT email..users..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="54" selection-start="621" selection-end="621" vertical-scroll-proportion="0.5092593" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
+        <state line="22" column="54" selection-start="621" selection-end="621" vertical-scroll-proportion="0.5092593" vertical-offset="0" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/modules.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="184" selection-end="184" vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
+        <state line="7" column="42" selection-start="184" selection-end="184" vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.20089285" vertical-offset="0" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.20089285" vertical-offset="0" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/js/dbAdapter.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="32" column="47" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/UserInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.30092594" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
+        <state line="13" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.30092594" vertical-offset="0" max-vertical-offset="690" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/js/mcrypt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4650">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/js_base64/js/class.base64.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="452" selection-end="452" vertical-scroll-proportion="-2.0357144" vertical-offset="1623" max-vertical-offset="2295">
-          <folding />
-        </state>
+        <state line="17" column="6" selection-start="452" selection-end="452" vertical-scroll-proportion="-2.0357144" vertical-offset="1623" max-vertical-offset="2295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/misc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="1" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.8981481" vertical-offset="333" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="61" column="1" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.8981481" vertical-offset="333" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/class.MC.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="41" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.496063" vertical-offset="915" max-vertical-offset="3090">
-          <folding />
-        </state>
+        <state line="82" column="41" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.496063" vertical-offset="915" max-vertical-offset="3090" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="51" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.4861111" vertical-offset="660" max-vertical-offset="4845">
-          <folding>
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="SELECT id,lo..users..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="SELECT data ..projects..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="SELECT data ..tasks..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="SELECT id, d..$what WHERE..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1397235330000" expanded="true" signature="-1:-1" placeholder="UPDATE $what..." />
-          </folding>
-        </state>
+        <state line="65" column="51" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.4861111" vertical-offset="660" max-vertical-offset="4845" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/sync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.3472222" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="15" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.3472222" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="826" selection-end="826" vertical-scroll-proportion="0.7638889" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
+        <state line="33" column="1" selection-start="826" selection-end="826" vertical-scroll-proportion="0.7638889" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/multi_crypting/js/class.mc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.22321428" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.22321428" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
@@ -502,24 +423,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="556" column="66" selection-start="23113" selection-end="23113" vertical-scroll-proportion="0.9151786" vertical-offset="0" max-vertical-offset="2100">
-          <folding>
-            <element signature="e#272#2505#0" expanded="false" />
-            <element signature="e#2546#7604#0" expanded="false" />
-            <element signature="e#2586#3391#0" expanded="false" />
-            <element signature="e#3466#3793#0" expanded="false" />
-            <element signature="e#3833#4580#0" expanded="false" />
-            <element signature="e#7638#14583#0" expanded="false" />
-            <element signature="e#14604#16122#0" expanded="false" />
-            <element signature="e#16207#22701#0" expanded="false" />
-            <marker date="1397233548000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="556" column="66" selection-start="23113" selection-end="23113" vertical-scroll-proportion="0.9151786" vertical-offset="0" max-vertical-offset="2100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.23148148" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="74" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.38528138" vertical-offset="888" max-vertical-offset="9855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/mcrypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.38528138" vertical-offset="33" max-vertical-offset="4395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/rijndael.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/Serpent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/utf8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9480519" vertical-offset="657" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/utils/class.base64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="-2.051948" vertical-offset="1602" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/utils/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/windowtt/window.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="315" selection-end="315" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="3210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/class.mc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/dbAdapter.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.37229437" vertical-offset="492" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/core.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="27" selection-start="937" selection-end="937" vertical-scroll-proportion="0.38528138" vertical-offset="303" max-vertical-offset="6240">
           <folding />
         </state>
       </provider>
