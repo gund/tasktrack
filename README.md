@@ -4,7 +4,7 @@ TaskTrack
 Track your spent time to your Projects and Tasks.
 
 ####Author: Alex Malkevich, https://www.facebook.com/gund07, https://vk.com/gund_ua
-#####Actual Release: 1.0 First Production Build.
+#####Actual Release: 1.1 With AppChache.
 ######If you find a bug, please report here: https://github.com/gund/tasktrack/issues
 
 Lisenced under Apache License Version 2.0. Anyone can use, modify and redistribute this app whithout any warranty in non coomerce way.
