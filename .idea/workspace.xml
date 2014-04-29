@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21f77dc-c782-401e-9503-31076e069f97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasktrack.zip" afterPath="$PROJECT_DIR$/tasktrack.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_core.js" afterPath="$PROJECT_DIR$/js/prod/compiled_core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_main.js" afterPath="$PROJECT_DIR$/js/prod/compiled_main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_mcrypt.js" afterPath="$PROJECT_DIR$/js/prod/compiled_mcrypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_utils.js" afterPath="$PROJECT_DIR$/js/prod/compiled_utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prod/compiled_windowtt.js" afterPath="$PROJECT_DIR$/js/prod/compiled_windowtt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/windowtt/css/style.css" afterPath="$PROJECT_DIR$/modules/windowtt/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache.manifest" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/prod/old/compiled_core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/prod/old/compiled_main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/prod/old/compiled_mcrypt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/prod/old/compiled_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/prod/old/compiled_windowtt.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasktrack.iws" />
@@ -31,7 +31,17 @@
     <favorites_list name="tasktrack" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="cache.manifest" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cache.manifest">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.38961038" vertical-offset="0" max-vertical-offset="693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -62,7 +72,6 @@
         <option value="$PROJECT_DIR$/modules/core_100/module.js" />
         <option value="$PROJECT_DIR$/js/include.js" />
         <option value="$PROJECT_DIR$/server/DataBase.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/modules/core_100/js/core.class.js" />
         <option value="$PROJECT_DIR$/modules/modules.js" />
         <option value="$PROJECT_DIR$/modules/core/module.js" />
@@ -80,6 +89,8 @@
         <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/dbAdapter.class.js" />
         <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/class.mc.js" />
         <option value="$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/windowtt/window.class.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/cache.manifest" />
       </list>
     </option>
   </component>
@@ -153,7 +164,40 @@
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -206,13 +250,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24571854" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19180088" sideWeight="0.67266774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19180088" sideWeight="0.67266774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -247,11 +291,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/cache.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1045">
+        <state line="11" column="26" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="480">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache.manifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1045" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -261,16 +317,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="7923">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="7923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
+        <state line="13" column="6" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -280,9 +332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="6255">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="6255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/js/rijndael.js">
@@ -295,34 +345,9 @@
         <state line="63" column="0" selection-start="0" selection-end="3090" vertical-scroll-proportion="0.94188035" vertical-offset="520" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multi_crypting/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="110" selection-start="509" selection-end="509" vertical-scroll-proportion="0.46495727" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="241" selection-end="241" vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/js_base64/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.31965813" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/windowtt/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="254" selection-end="254" vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/include-dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="76" selection-start="439" selection-end="439" vertical-scroll-proportion="0.17435898" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/include.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="80" selection-start="456" selection-end="456" vertical-scroll-proportion="0.17435898" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/DataBase.php">
@@ -350,11 +375,6 @@
         <state line="16" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="672" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/core/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="184" selection-end="184" vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="672" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.20089285" vertical-offset="0" max-vertical-offset="1335" />
@@ -372,11 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/js/mcrypt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4650">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/js_base64/js/class.base64.js">
@@ -414,98 +430,114 @@
         <state line="10" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.22321428" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="21" selection-start="7551" selection-end="7551" vertical-scroll-proportion="5.580357" vertical-offset="0" max-vertical-offset="6240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="556" column="66" selection-start="23113" selection-end="23113" vertical-scroll-proportion="0.9151786" vertical-offset="0" max-vertical-offset="2100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.23148148" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="74" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.38528138" vertical-offset="888" max-vertical-offset="9855">
-          <folding />
-        </state>
+        <state line="77" column="74" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.38528138" vertical-offset="888" max-vertical-offset="9855" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/mcrypt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="9" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.38528138" vertical-offset="33" max-vertical-offset="4395">
-          <folding />
-        </state>
+        <state line="37" column="9" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.38528138" vertical-offset="33" max-vertical-offset="4395" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/rijndael.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/Serpent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3000">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3000" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/utf8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9480519" vertical-offset="657" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9480519" vertical-offset="657" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/utils/class.base64.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="-2.051948" vertical-offset="1602" max-vertical-offset="2295">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="-2.051948" vertical-offset="1602" max-vertical-offset="2295" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/windowtt/window.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="315" selection-end="315" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="3210">
-          <folding />
-        </state>
+        <state line="16" column="6" selection-start="315" selection-end="315" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="3210" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/mcrypt/class.mc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
+        <state line="16" column="32" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/dbAdapter.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.37229437" vertical-offset="492" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="50" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.37229437" vertical-offset="492" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/closurecmp/compiler-latest/tt_cmp/core/core.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="937" selection-end="937" vertical-scroll-proportion="0.38528138" vertical-offset="303" max-vertical-offset="6240">
+        <state line="38" column="27" selection-start="937" selection-end="937" vertical-scroll-proportion="0.38528138" vertical-offset="303" max-vertical-offset="6240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/core/js/core.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="27" selection-start="6202" selection-end="6202" vertical-scroll-proportion="0.35497835" vertical-offset="2784" max-vertical-offset="6240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/include.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="80" selection-start="464" selection-end="464" vertical-scroll-proportion="0.12987013" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/windowtt/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="254" selection-end="254" vertical-scroll-proportion="0.28138527" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/multi_crypting/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="110" selection-start="509" selection-end="509" vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/js_mcrypt/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="241" selection-end="241" vertical-scroll-proportion="0.28138527" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/js_base64/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gh_buttons/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/core/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="232" selection-end="232" vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="55" selection-end="55" vertical-scroll-proportion="0.044843048" vertical-offset="0" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache.manifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.38961038" vertical-offset="0" max-vertical-offset="693">
           <folding />
         </state>
       </provider>
