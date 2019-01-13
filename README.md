@@ -14,5 +14,3 @@ You can sync your app data and then open this app on
 other device. This app doesn't need Internet connection.
 The data will be stored on your PC and while you want
 sync your data just enable Internet connection.
-
-You can use TaskTrack here: http://ttrack.tk
